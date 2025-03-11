@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="vivax-tv" tvg-logo="https://encurtador.com.br/wzruB" group-title="Familia",vivax-tv
+https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
+#EXTINF:-1 tvg-id="Os Jatsons" tvg-logo="https://encurtador.com.br/f1yuh" group-title="Familia",Os Jetsons
+https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
+
