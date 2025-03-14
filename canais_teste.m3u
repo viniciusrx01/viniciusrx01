@@ -17,32 +17,32 @@ https://stlvs.click/sportv/tracks-v1a1/mono.m3u8
 https://stlvs.click/sportv2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3
 https://stlvs.click/sportv3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwOp9DfTna9rhX366b7QPx6mNTt-IpqY-eA&s" group-title="Esporte",PREMIERE
+#EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE
 https://stlvs.click/premiere1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwOp9DfTna9rhX366b7QPx6mNTt-IpqY-eA&s" group-title="Esporte",PREMIERE 2
+#EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2
 https://stlvs.click/premiere2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwOp9DfTna9rhX366b7QPx6mNTt-IpqY-eA&s" group-title="Esporte",PREMIERE 3
+#EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3
 https://stlvs.click/premiere3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwOp9DfTna9rhX366b7QPx6mNTt-IpqY-eA&s" group-title="Esporte",PREMIERE 4
+#EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4
 https://stlvs.click/premiere4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE
 https://stlvs.click/combate/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF
 https://stlvs.click/canaloff/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",CARTOONNETWORK
+#EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK
 https://stlvs.click/cartoonnetwork/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",CARTOONITO
+#EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoonito-ao-vivo.webp" group-title="Desenho",CARTOONITO
 https://mycdn.delivery/cartoonito/index.m3u8
-#EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",DISNEY CHANNEL
+#EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-disney-channel-ao-vivo.webp" group-title="Desenho",DISNEY CHANNEL
 https://stlvs.click/disneychannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NickJR" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",NICK JR
+#EXTINF:-1 tvg-id="NickJR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickjr-ao-vivo.webp" group-title="Desenho",NICK JR
 https://stlvs.click/nickjr/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",Nickelodeon
+#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickelodeon-ao-vivo.webp" group-title="Desenho",Nickelodeon
 https://stlvs.click/nickelodeon/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",DiscoveryKids
+#EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-kids-ao-vivo.webp" group-title="Desenho",DiscoveryKids
 https://stlvs.click/discoverykids/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Desenho",Gloobinho
+#EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho
 https://stlvs.click/gloobinho/tracks-v1a1/mono.m3u8
 
 
