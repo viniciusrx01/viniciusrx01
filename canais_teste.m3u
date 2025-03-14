@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
 https://stlvs.click/espn/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Esporte",ESPN 2
+#EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
 https://stlvs.click/espn2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Esporte",ESPN 3
+#EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3
 https://stlvs.click/espn3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Esporte",ESPN  4
+#EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4
 https://stlvs.click/espn4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Esporte",ESPN 5
+#EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5
 https://stlvs.click/espn5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Esporte",ESPN 6
 https://stlvs.click/espn6/tracks-v1a1/mono.m3u8
