@@ -98,15 +98,15 @@ https://stlvs.click/ae/tracks-v1a1/mono.m3u8
 https://stlvs.click/space/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-id="globoSP" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globoSP
+#EXTINF:-1 tvg-id="globoSP" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoSP
 https://stlvs.click/globoSP/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="globoRJ" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globoRJ
+#EXTINF:-1 tvg-id="globoRJ" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoRJ
 https://stlvs.click/globorj-globorio/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="globoMG" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globoMG
+#EXTINF:-1 tvg-id="globoMG" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoMG
 https://stlvs.click/globoMG/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="globoPR" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globoPR
+#EXTINF:-1 tvg-id="globoPR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoPR
 https://stlvs.click/globoPR/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="globoBA" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globoBA
+#EXTINF:-1 tvg-id="globoBA" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoBA
 https://stlvs.click/globoBA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",cnnbrasil
 https://stlvs.click/cnnbrasil/tracks-v1a1/mono.m3u8
@@ -114,11 +114,11 @@ https://stlvs.click/cnnbrasil/tracks-v1a1/mono.m3u8
 https://stlvs.click/bandnews/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="globonews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globonews
 https://stlvs.click/globonews/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="band" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",band
+#EXTINF:-1 tvg-id="band" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-band-ao-vivo.webp" group-title="ABERTOS",band
 https://stlvs.click/band/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="sbt" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",sbt
+#EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
 https://stlvs.click/sbt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="sbt" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",sbt
+#EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
 https://stlvs.click/sbt/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="discoverychannel" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="DOCUMENTARIO",discoverychannel
