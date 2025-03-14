@@ -125,7 +125,7 @@ https://stlvs.click/sbt/tracks-v1a1/mono.m3u8
 https://stlvs.click/discoverychannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="discoveryid" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="DOCUMENTARIO",discoveryid
 https://stlvs.click/discoveryid/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="discoveryworld" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="DOCUMENTARIO",discoveryworld
+#EXTINF:-1 tvg-id="discoveryworld" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovey-world-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryworld
 https://stlvs.click/discoveryworld/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="discoverytheater" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="DOCUMENTARIO",discoverytheater
 https://stlvs.click/discoverytheater/tracks-v1a1/mono.m3u8
@@ -156,15 +156,15 @@ https://stlvs.click/fx/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="DOCUMENTARIO",paramountnetwork
 https://stlvs.click/paramountnetwork/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="multishow" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",multishow
+#EXTINF:-1 tvg-id="multishow" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/10/assistir-multishow-ao-vivo.webp" group-title="VARIEDADES",multishow
 https://stlvs.click/multishow/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="gnt" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",gnt
+#EXTINF:-1 tvg-id="gnt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gnt-ao-vivo.webp" group-title="VARIEDADES",gnt
 https://stlvs.click/gnt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="viva" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",viva
+#EXTINF:-1 tvg-id="viva" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-viva-ao-vivo.webp" group-title="VARIEDADES",viva
 https://stlvs.click/viva/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="comedycentral" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",comedycentral
+#EXTINF:-1 tvg-id="comedycentral" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-comedy-central-ao-vivo.webp" group-title="VARIEDADES",comedycentral
 https://d1r94zrwa3gnlo.cloudfront.net/livestore102/stream/hls/288/288.m3u8
-#EXTINF:-1 tvg-id="MTV Brasil" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",MTV Brasil
+#EXTINF:-1 tvg-id="MTV Brasil" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-mtv-ao-vivo.webp" group-title="VARIEDADES",MTV Brasil
 https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287.m3u8
-#EXTINF:-1 tvg-id="Art 1" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="VARIEDADES",Art 1
+#EXTINF:-1 tvg-id="Art 1" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-arte-1-ao-vivo.webp" group-title="VARIEDADES",Art 1
 https://d1r94zrwa3gnlo.cloudfront.net/livestore104/stream/hls/292/292.m3u8
