@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://viniciusrx01.github.io/viniciusrx01/EPG net tv.xml"
+#EXTM3U x-tvg-url="https://gist.githubusercontent.com/lagosiptv/e6345595f550b9a135fc5fabb0c3ec86/raw/dc7566b6ec31a9d42c9c52e969be27b57bbd4925/epg2.xml"
 #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
 https://tvsmarters.org/espn/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
