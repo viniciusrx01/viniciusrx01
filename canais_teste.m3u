@@ -44,6 +44,8 @@ https://cdnlv.online/nickelodeon/tracks-v1a1/mono.m3u8
 https://cdnlv.online/discoverykids/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho
 https://cdnlv.online/gloobinho/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Os Jatsons" tvg-logo="https://encurtador.com.br/f1yuh" group-title="Desenho",Os Jetsons
+https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
