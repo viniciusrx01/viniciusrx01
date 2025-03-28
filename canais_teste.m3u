@@ -48,6 +48,14 @@ https://cdnlv.online/gloobinho/tracks-v1a1/mono.m3u8
 https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 #EXTINF:-1 tvg-id="Retro Cartoon" tvg-logo="https://encurtador.com.br/qtsIn" group-title="Desenho",Retro Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
+#EXTINF:-1 tvg-id="animetv" tvg-logo="https://encurtador.com.br/eLWdG" group-title="Desenho",animetv
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Loading" tvg-logo="https://encurtador.com.br/zmhsm" group-title="Desenho",Loading
+https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w1211373290.m3u8
+#EXTINF:-1 tvg-id="Otaku Sign Tv" tvg-logo="https://encurtador.com.br/OwWke" group-title="Desenho",Otaku Sign Tv
+https://stmv1.srvif.com/anime/anime/playlist.m3u8
+#EXTINF:-1 tvg-id="Tv Xtreme" tvg-logo="https://encurtador.com.br/unyYC" group-title="Desenho",Tv Xtreme
+https://stmv1.srvif.com/xtremetv/xtremetv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
 https://cdnlv.online/hbo/tracks-v1a1/mono.m3u8
