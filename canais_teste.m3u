@@ -66,6 +66,8 @@ https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
 https://stmv6.voxtvhd.com.br/lucastv/lucastv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tv Kidmais" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/875c68d876502060f56b9303cf91a09e.webp" group-title="Desenho",Tv Kidmais
 https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
+#EXTINF:-1 tvg-id="Toon Goggles" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/26309f3e115d9326a50aeb84c794f1fe.webp" group-title="Desenho",Toon Goggles
+https://stream.ads.ottera.tv/cl/250328cvjfe7jgitmmmcp0d3gg/1280x720_3071200_0_f.m3u8?i=475_274
 
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
 https://cdnlv.online/hbo/tracks-v1a1/mono.m3u8
