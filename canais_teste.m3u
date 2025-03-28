@@ -56,6 +56,10 @@ https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w1211373290.m3u8
 https://stmv1.srvif.com/anime/anime/playlist.m3u8
 #EXTINF:-1 tvg-id="Tv Xtreme" tvg-logo="https://encurtador.com.br/unyYC" group-title="Desenho",Tv Xtreme
 https://stmv1.srvif.com/xtremetv/xtremetv/playlist.m3u8
+#EXTINF:-1 tvg-id="Animax" tvg-logo="https://encurtador.com.br/r2H2N" group-title="Desenho",Animax
+https://stream.ichibantv.com:3547/stream/play.m3u8
+#EXTINF:-1 tvg-id="Gospel Cartoon" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/f0a3c3c7b9a651e847d86dd71bbb5551.webp" group-title="Desenho",Gospel Cartoon
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
 https://cdnlv.online/hbo/tracks-v1a1/mono.m3u8
