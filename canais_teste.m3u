@@ -1,172 +1,276 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
-https://s2.choraporco.icu/fontes/nossoplayer/espn.m3u8
-#EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
-https://s2.choraporco.icu/fontes/nossoplayer/espn2.m3u8
-#EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3
-https://s2.choraporco.icu/fontes/nossoplayer/espn3.m3u8
-#EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4
-https://s2.choraporco.icu/fontes/nossoplayer/espn4.m3u8
-#EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5
-https://s2.choraporco.icu/fontes/nossoplayer/espn5.m3u8
-#EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://encurtador.com.br/bVA5K" group-title="Esporte",ESPN 6
-https://s2.choraporco.icu/fontes/nossoplayer/espn6.m3u8
-#EXTINF:-1 tvg-id="SPORTV" tvg-logo="https://encurtador.com.br/QuM3k" group-title="Esporte",SPORTV
-https://s2.choraporco.icu/fontes/nossoplayer/sportv.m3u8
-#EXTINF:-1 tvg-id="SPORTV2" tvg-logo="https://encurtador.com.br/V3CpO" group-title="Esporte",SPORTV 2
-https://s2.choraporco.icu/fontes/nossoplayer/sportv2.m3u8
-#EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3
-https://s2.choraporco.icu/fontes/nossoplayer/sportv3.m3u8
-#EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE
-https://s2.choraporco.icu/fontes/nossoplayer/premiere1.m3u8
-#EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2
-https://s2.choraporco.icu/fontes/nossoplayer/premiere2.m3u8
-#EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3
-https://s2.choraporco.icu/fontes/nossoplayer/premiere3.m3u8
-#EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4
-https://s2.choraporco.icu/fontes/nossoplayer/premiere4.m3u8
-#EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE
-https://s2.choraporco.icu/fontes/nossoplayer/combate.m3u8
-#EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF
-https://s2.choraporco.icu/fontes/nossoplayer/canaloff.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK
-https://s2.choraporco.icu/fontes/nossoplayer/cartoonnetwork.m3u8
-#EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoonito-ao-vivo.webp" group-title="Desenho",CARTOONITO
-https://mycdn.delivery/cartoonito/index.m3u8
-#EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-disney-channel-ao-vivo.webp" group-title="Desenho",DISNEY CHANNEL
-https://s2.choraporco.icu/fontes/nossoplayer/disneychannel.m3u8
-#EXTINF:-1 tvg-id="NickJR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickjr-ao-vivo.webp" group-title="Desenho",NICK JR
-https://s2.choraporco.icu/fontes/nossoplayer/nickjr.m3u8
-#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickelodeon-ao-vivo.webp" group-title="Desenho",Nickelodeon
-https://s2.choraporco.icu/fontes/nossoplayer/nickelodeon.m3u8
-#EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-kids-ao-vivo.webp" group-title="Desenho",DiscoveryKids
-https://s2.choraporco.icu/fontes/nossoplayer/discoverykids.m3u8
-#EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho
-https://s2.choraporco.icu/fontes/nossoplayer/gloobinho.m3u8
-
-
-#EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
-https://s2.choraporco.icu/fontes/nossoplayer/hbo.m3u8
-#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-2-ao-vivo.webp" group-title="FILME",HBO 2
-https://s2.choraporco.icu/fontes/nossoplayer/hbo2.m3u8
-#EXTINF:-1 tvg-id="hboplus" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-plus-ao-vivo.webp" group-title="FILME",HBO Plus
-https://s2.choraporco.icu/fontes/nossoplayer/hboplus.m3u8
-#EXTINF:-1 tvg-id="hbofamily" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-family-ao-vivo.webp" group-title="FILME",HBO Family
-https://s2.choraporco.icu/fontes/nossoplayer/hbofamily.m3u8
-#EXTINF:-1 tvg-id="hboxtreme" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-xtreme-ao-vivo.webp" group-title="FILME",HBO XTREME
-https://s2.choraporco.icu/fontes/nossoplayer/hboxtreme.m3u8
-#EXTINF:-1 tvg-id="FX" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="FILME",FX
-https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
-#EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS
-https://s2.choraporco.icu/fontes/nossoplayer/bis.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount
-https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
-#EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix
-https://s2.choraporco.icu/fontes/nossoplayer/megapix.m3u8
-#EXTINF:-1 tvg-id="axn" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-axn-ao-vivo.webp" group-title="FILME",AXN
-https://s2.choraporco.icu/fontes/nossoplayer/axn.m3u8
-#EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",Space
-https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
-#EXTINF:-1 tvg-id="sonychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-sony-ao-vivo.webp" group-title="FILME",sonychannel
-https://s2.choraporco.icu/fontes/nossoplayer/sonychannel.m3u8
-#EXTINF:-1 tvg-id="studiouniversal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-studio-universal-ao-vivo.webp" group-title="FILME",studiouniversal
-https://s2.choraporco.icu/fontes/nossoplayer/studiouniversal.m3u8
-#EXTINF:-1 tvg-id="universaltv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-universal-tv-ao-vivo.webp" group-title="FILME",universaltv
-https://s2.choraporco.icu/fontes/nossoplayer/universaltv.m3u8
-#EXTINF:-1 tvg-id="tcpipoca" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-pipoca-ao-vivo.webp" group-title="FILME",tcpipoca
-https://s2.choraporco.icu/fontes/nossoplayer/tcpipoca.m3u8
-#EXTINF:-1 tvg-id="tctouch" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-touch-ao-vivo.webp" group-title="FILME",tctouch
-https://s2.choraporco.icu/fontes/nossoplayer/tctouch.m3u8
-#EXTINF:-1 tvg-id="tcpremium" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-premium-ao-vivo.webp" group-title="FILME",tcpremium
-https://s2.choraporco.icu/fontes/nossoplayer/tcpremium.m3u8
-#EXTINF:-1 tvg-id="tcfun" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/08/TELECINE-FUN-1-1.jpg.webp" group-title="FILME",tcfun
-https://s2.choraporco.icu/fontes/nossoplayer/tcfun.m3u8
-#EXTINF:-1 tvg-id="tccult" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-cult-ao-vivo.webp" group-title="FILME",tccult
-https://s2.choraporco.icu/fontes/nossoplayer/tccult.m3u8
-#EXTINF:-1 tvg-id="tnt" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/TNT.jpg.webp" group-title="FILME",tnt
-https://s2.choraporco.icu/fontes/nossoplayer/tnt.m3u8
-#EXTINF:-1 tvg-id="warnertv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-warner-ao-vivo.webp" group-title="FILME",Warnertv
-https://s2.choraporco.icu/fontes/nossoplayer/warnertv.m3u8
-#EXTINF:-1 tvg-id="cinemax" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CINEMAX.jpg.webp" group-title="FILME",cinemax
-https://s2.choraporco.icu/fontes/nossoplayer/cinemax.m3u8
-#EXTINF:-1 tvg-id="starchannel" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/STAR-CHANNEL-1.jpg.webp" group-title="FILME",starchannel
-https://s2.choraporco.icu/fontes/nossoplayer/starchannel.m3u8
-#EXTINF:-1 tvg-id="ae" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/AE-MUNDO.jpg.webp" group-title="FILME",A&E
-https://s2.choraporco.icu/fontes/nossoplayer/ae.m3u8
-#EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",space
-https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
-
-
-#EXTINF:-1 tvg-id="globoSP" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoSP
-https://s2.choraporco.icu/fontes/nossoplayer/globoSP.m3u8
-#EXTINF:-1 tvg-id="globoRJ" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoRJ
-https://s2.choraporco.icu/fontes/nossoplayer/globorj-globorio.m3u8
-#EXTINF:-1 tvg-id="globoMG" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoMG
-https://s2.choraporco.icu/fontes/nossoplayer/globoMG.m3u8
-#EXTINF:-1 tvg-id="globoPR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoPR
-https://s2.choraporco.icu/fontes/nossoplayer/globoPR.m3u8
-#EXTINF:-1 tvg-id="globoBA" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoBA
-https://s2.choraporco.icu/fontes/nossoplayer/globoBA.m3u8
-#EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",cnnbrasil
-https://s2.choraporco.icu/fontes/nossoplayer/cnnbrasil.m3u8
-#EXTINF:-1 tvg-id="bandnews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",bandnews
-https://s2.choraporco.icu/fontes/nossoplayer/bandnews.m3u8
-#EXTINF:-1 tvg-id="globonews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globonews
-https://s2.choraporco.icu/fontes/nossoplayer/globonews.m3u8
-#EXTINF:-1 tvg-id="band" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-band-ao-vivo.webp" group-title="ABERTOS",band
-https://s2.choraporco.icu/fontes/nossoplayer/band.m3u8
-#EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
-https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
-#EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
-https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
-
-#EXTINF:-1 tvg-id="discoverychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-discovery-channel-ao-vivo.webp" group-title="DOCUMENTARIO",discoverychannel
-https://s2.choraporco.icu/fontes/nossoplayer/discoverychannel.m3u8
-#EXTINF:-1 tvg-id="discoveryid" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2022/03/assistir-id-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryid
-https://s2.choraporco.icu/fontes/nossoplayer/discoveryid.m3u8
-#EXTINF:-1 tvg-id="discoveryworld" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovey-world-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryworld
-https://s2.choraporco.icu/fontes/nossoplayer/discoveryworld.m3u8
-#EXTINF:-1 tvg-id="discoverytheater" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-theater-ao-vivo.webp" group-title="DOCUMENTARIO",discoverytheater
-https://s2.choraporco.icu/fontes/nossoplayer/discoverytheater.m3u8
-#EXTINF:-1 tvg-id="discoveryheh" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-home-health-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryheh
-https://s2.choraporco.icu/fontes/nossoplayer/discoveryheh.m3u8
-#EXTINF:-1 tvg-id="discoveryscience" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-science-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryscience
-https://s2.choraporco.icu/fontes/nossoplayer/discoveryscience.m3u8
-#EXTINF:-1 tvg-id="nationalgeographic" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-national-ao-vivo.webp" group-title="DOCUMENTARIO",nationalgeographic
-https://s2.choraporco.icu/fontes/nossoplayer/nationalgeographic.m3u8
-#EXTINF:-1 tvg-id="history" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-ao-vivo.webp" group-title="DOCUMENTARIO",history
-https://s2.choraporco.icu/fontes/nossoplayer/history.m3u8
-#EXTINF:-1 tvg-id="history2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-2-ao-vivo.webp" group-title="DOCUMENTARIO",history2
-https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
-#EXTINF:-1 tvg-id="history2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-2-ao-vivo.webp" group-title="DOCUMENTARIO",history2
-https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
-#EXTINF:-1 tvg-id="animalplanet" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-animal-planet-ao-vivo.webp" group-title="DOCUMENTARIO",animalplanet
-https://s2.choraporco.icu/fontes/nossoplayer/animalplanet.m3u8
-#EXTINF:-1 tvg-id="tlc" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-tlc-ao-vivo.webp" group-title="DOCUMENTARIO",tlc
-https://s2.choraporco.icu/fontes/nossoplayer/tlc.m3u8
-#EXTINF:-1 tvg-id="trutv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2024/02/Assistir-TruTV-ao-vivo.webp" group-title="DOCUMENTARIO",trutv
-https://s2.choraporco.icu/fontes/nossoplayer/trutv.m3u8
-#EXTINF:-1 tvg-id="cinecanal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2022/04/assistir-cinecanal-ao-vivo.webp" group-title="DOCUMENTARIO",cinecanal
-https://s2.choraporco.icu/fontes/nossoplayer/cinecanal.m3u8
-#EXTINF:-1 tvg-id="amc" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-amc-ao-vivo.webp" group-title="DOCUMENTARIO",amc
-https://s2.choraporco.icu/fontes/nossoplayer/amc.m3u8
-#EXTINF:-1 tvg-id="fx" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="DOCUMENTARIO",fx
-https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2024/05/assistir-paramount-ao-vivo.webp" group-title="DOCUMENTARIO",paramountnetwork
-https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
-
-#EXTINF:-1 tvg-id="multishow" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/10/assistir-multishow-ao-vivo.webp" group-title="VARIEDADES",multishow
-https://s2.choraporco.icu/fontes/nossoplayer/multishow.m3u8
-#EXTINF:-1 tvg-id="gnt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gnt-ao-vivo.webp" group-title="VARIEDADES",gnt
-https://s2.choraporco.icu/fontes/nossoplayer/gnt.m3u8
-#EXTINF:-1 tvg-id="viva" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-viva-ao-vivo.webp" group-title="VARIEDADES",viva
-https://s2.choraporco.icu/fontes/nossoplayer/viva.m3u8
-#EXTINF:-1 tvg-id="comedycentral" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-comedy-central-ao-vivo.webp" group-title="VARIEDADES",comedycentral
-https://d1r94zrwa3gnlo.cloudfront.net/livestore102/stream/hls/288/288.m3u8
-#EXTINF:-1 tvg-id="MTV Brasil" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-mtv-ao-vivo.webp" group-title="VARIEDADES",MTV Brasil
-https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287.m3u8
-#EXTINF:-1 tvg-id="Art 1" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-arte-1-ao-vivo.webp" group-title="VARIEDADES",Art 1
-https://d1r94zrwa3gnlo.cloudfront.net/livestore104/stream/hls/292/292.m3u8
-
-
+#EXTM3U x-tvg-url="https://gist.githubusercontent.com/lagosiptv/e6345595f550b9a135fc5fabb0c3ec86/raw/dc7566b6ec31a9d42c9c52e969be27b57bbd4925/epg2.xml"
+ #EXTM3U
+ #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
+ https://s2.choraporco.icu/fontes/nossoplayer/espn.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn.m3u8
+ #EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
+ https://s2.choraporco.icu/fontes/nossoplayer/espn2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn2.m3u8
+ #EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3
+ https://s2.choraporco.icu/fontes/nossoplayer/espn3.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn3.m3u8
+ #EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4
+ https://s2.choraporco.icu/fontes/nossoplayer/espn4.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn4.m3u8
+ #EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5
+ https://s2.choraporco.icu/fontes/nossoplayer/espn5.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn5.m3u8
+ #EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://encurtador.com.br/bVA5K" group-title="Esporte",ESPN 6
+ https://s2.choraporco.icu/fontes/nossoplayer/espn6.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/espn6.m3u8
+ #EXTINF:-1 tvg-id="SPORTV" tvg-logo="https://encurtador.com.br/QuM3k" group-title="Esporte",SPORTV
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv.m3u8
+ #EXTINF:-1 tvg-id="SPORTV2" tvg-logo="https://encurtador.com.br/V3CpO" group-title="Esporte",SPORTV 2
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv2.m3u8
+ #EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv3.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sportv3.m3u8
+ #EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE
+ https://s2.choraporco.icu/fontes/nossoplayer/premiereclubes.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere1.m3u8
+ #EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere2.m3u8
+ #EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere3.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere3.m3u8
+ #EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere4.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/premiere4.m3u8
+ #EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE
+ https://s2.choraporco.icu/fontes/nossoplayer/combate.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/combate.m3u8
+ #EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF
+ https://s2.choraporco.icu/fontes/nossoplayer/canaloff.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/canaloff.m3u8
+ 
+ #EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK
+ https://s2.choraporco.icu/fontes/nossoplayer/cartoonnetwork.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/cartoonnetwork.m3u8
+ #EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoonito-ao-vivo.webp" group-title="Desenho",CARTOONITO
+ https://s2.choraporco.icu/fontes/nossoplayer/cartoonito.m3u8
+ https://mycdn.delivery/cartoonito/index.m3u8
+ #EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-disney-channel-ao-vivo.webp" group-title="Desenho",DISNEY CHANNEL
+ https://s2.choraporco.icu/fontes/nossoplayer/disneychannel.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/disneychannel.m3u8
+ #EXTINF:-1 tvg-id="NickJR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickjr-ao-vivo.webp" group-title="Desenho",NICK JR
+ https://s2.choraporco.icu/fontes/nossoplayer/nickjr.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/nickjr.m3u8
+ #EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickelodeon-ao-vivo.webp" group-title="Desenho",Nickelodeon
+ https://s2.choraporco.icu/fontes/nossoplayer/nickelodeon.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/nickelodeon.m3u8
+ #EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-kids-ao-vivo.webp" group-title="Desenho",DiscoveryKids
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverykids.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverykids.m3u8
+ #EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho
+ https://s2.choraporco.icu/fontes/nossoplayer/gloobinho.m3u8
+ #EXTINF:-1 tvg-id="Os Jatsons" tvg-logo="https://encurtador.com.br/f1yuh" group-title="Desenho",Os Jetsons
+ https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
+ #EXTINF:-1 tvg-id="Retro Cartoon" tvg-logo="https://encurtador.com.br/qtsIn" group-title="Desenho",Retro Cartoon
+ https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
+ #EXTINF:-1 tvg-id="animetv" tvg-logo="https://encurtador.com.br/eLWdG" group-title="Desenho",animetv
+ https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+ #EXTINF:-1 tvg-id="Loading" tvg-logo="https://encurtador.com.br/zmhsm" group-title="Desenho",Loading
+ https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w1211373290.m3u8
+ #EXTINF:-1 tvg-id="Otaku Sign Tv" tvg-logo="https://encurtador.com.br/OwWke" group-title="Desenho",Otaku Sign Tv
+ https://stmv1.srvif.com/anime/anime/playlist.m3u8
+ #EXTINF:-1 tvg-id="Tv Xtreme" tvg-logo="https://encurtador.com.br/unyYC" group-title="Desenho",Tv Xtreme
+ https://stmv1.srvif.com/xtremetv/xtremetv/playlist.m3u8
+ #EXTINF:-1 tvg-id="Animax" tvg-logo="https://encurtador.com.br/r2H2N" group-title="Desenho",Animax
+ https://stream.ichibantv.com:3547/stream/play.m3u8
+ #EXTINF:-1 tvg-id="Gospel Cartoon" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/f0a3c3c7b9a651e847d86dd71bbb5551.webp" group-title="Desenho",Gospel Cartoon
+ https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+ #EXTINF:-1 tvg-id="Canal 29" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/dcb3ff84b8f31ddc39ef213b42402f75.webp" group-title="Desenho",Canal 29
+ https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
+ #EXTINF:-1 tvg-id="Lucas Tv" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/30b5156f5206356ea7e928eedcbc7667.webp" group-title="Desenho",Lucas Tv
+ https://stmv6.voxtvhd.com.br/lucastv/lucastv/playlist.m3u8
+ #EXTINF:-1 tvg-id="Tv Kidmais" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/875c68d876502060f56b9303cf91a09e.webp" group-title="Desenho",Tv Kidmais
+ https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
+ #EXTINF:-1 tvg-id="Toon Goggles" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/26309f3e115d9326a50aeb84c794f1fe.webp" group-title="Desenho",Toon Goggles
+ https://stream.ads.ottera.tv/cl/250328cvjfe7jgitmmmcp0d3gg/1280x720_3071200_0_f.m3u8?i=475_274
+ https://s2.choraporco.icu/fontes/nossoplayer/gloobinho.m3u8
+ 
+ 
+ #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
+ https://s2.choraporco.icu/fontes/nossoplayer/hbo.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/hbo.m3u8
+ #EXTINF:-1 tvg-id="hbo2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-2-ao-vivo.webp" group-title="FILME",HBO 2
+ https://s2.choraporco.icu/fontes/nossoplayer/hbo2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/hbo2.m3u8
+ #EXTINF:-1 tvg-id="hboplus" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-plus-ao-vivo.webp" group-title="FILME",HBO Plus
+ https://s2.choraporco.icu/fontes/nossoplayer/hboplus.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/hboplus.m3u8
+ #EXTINF:-1 tvg-id="hbofamily" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-family-ao-vivo.webp" group-title="FILME",HBO Family
+ https://s2.choraporco.icu/fontes/nossoplayer/hbofamily.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/hbofamily.m3u8
+ #EXTINF:-1 tvg-id="hboxtreme" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-xtreme-ao-vivo.webp" group-title="FILME",HBO XTREME
+ https://s2.choraporco.icu/fontes/nossoplayer/hboxtreme.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/hboxtreme.m3u8
+ #EXTINF:-1 tvg-id="FX" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="FILME",FX
+ https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
+ #EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS
+ https://s2.choraporco.icu/fontes/nossoplayer/bis.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/bis.m3u8
+ #EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount
+ https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
+ #EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix
+ https://s2.choraporco.icu/fontes/nossoplayer/megapix.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/megapix.m3u8
+ #EXTINF:-1 tvg-id="axn" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-axn-ao-vivo.webp" group-title="FILME",AXN
+ https://s2.choraporco.icu/fontes/nossoplayer/axn.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/axn.m3u8
+ #EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",Space
+ https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
+ #EXTINF:-1 tvg-id="sonychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-sony-ao-vivo.webp" group-title="FILME",sonychannel
+ https://s2.choraporco.icu/fontes/nossoplayer/sonychannel.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sonychannel.m3u8
+ #EXTINF:-1 tvg-id="studiouniversal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-studio-universal-ao-vivo.webp" group-title="FILME",studiouniversal
+ https://s2.choraporco.icu/fontes/nossoplayer/studiouniversal.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/studiouniversal.m3u8
+ #EXTINF:-1 tvg-id="universaltv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-universal-tv-ao-vivo.webp" group-title="FILME",universaltv
+ https://s2.choraporco.icu/fontes/nossoplayer/universaltv.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/universaltv.m3u8
+ #EXTINF:-1 tvg-id="tcpipoca" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-pipoca-ao-vivo.webp" group-title="FILME",tcpipoca
+ https://s2.choraporco.icu/fontes/nossoplayer/tcpipoca.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tcpipoca.m3u8
+ #EXTINF:-1 tvg-id="tctouch" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-touch-ao-vivo.webp" group-title="FILME",tctouch
+ https://s2.choraporco.icu/fontes/nossoplayer/tctouch.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tctouch.m3u8
+ #EXTINF:-1 tvg-id="tcpremium" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-premium-ao-vivo.webp" group-title="FILME",tcpremium
+ https://s2.choraporco.icu/fontes/nossoplayer/tcpremium.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tcpremium.m3u8
+ #EXTINF:-1 tvg-id="tcfun" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/08/TELECINE-FUN-1-1.jpg.webp" group-title="FILME",tcfun
+ https://s2.choraporco.icu/fontes/nossoplayer/tcfun.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tcfun.m3u8
+ #EXTINF:-1 tvg-id="tccult" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-cult-ao-vivo.webp" group-title="FILME",tccult
+ https://s2.choraporco.icu/fontes/nossoplayer/tccult.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tccult.m3u8
+ #EXTINF:-1 tvg-id="tnt" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/TNT.jpg.webp" group-title="FILME",tnt
+ https://s2.choraporco.icu/fontes/nossoplayer/tnt.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tnt.m3u8
+ #EXTINF:-1 tvg-id="warnertv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-warner-ao-vivo.webp" group-title="FILME",Warnertv
+ https://s2.choraporco.icu/fontes/nossoplayer/warnertv.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/warnertv.m3u8
+ #EXTINF:-1 tvg-id="cinemax" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CINEMAX.jpg.webp" group-title="FILME",cinemax
+ https://s2.choraporco.icu/fontes/nossoplayer/cinemax.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/cinemax.m3u8
+ #EXTINF:-1 tvg-id="starchannel" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/STAR-CHANNEL-1.jpg.webp" group-title="FILME",starchannel
+ https://s2.choraporco.icu/fontes/nossoplayer/starchannel.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/starchannel.m3u8
+ #EXTINF:-1 tvg-id="ae" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/AE-MUNDO.jpg.webp" group-title="FILME",A&E
+ https://s2.choraporco.icu/fontes/nossoplayer/ae.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/ae.m3u8
+ #EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",space
+ https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/space.m3u8
+ 
+ 
+ #EXTINF:-1 tvg-id="globoSP" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoSP
+ https://s2.choraporco.icu/fontes/nossoplayer/globoSP.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globoSP.m3u8
+ #EXTINF:-1 tvg-id="globoRJ" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoRJ
+ https://s2.choraporco.icu/fontes/nossoplayer/globorj-globorio.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globorj-globorio.m3u8
+ #EXTINF:-1 tvg-id="globoMG" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoMG
+ https://s2.choraporco.icu/fontes/nossoplayer/globoMG.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globoMG.m3u8
+ #EXTINF:-1 tvg-id="globoPR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoPR
+ https://s2.choraporco.icu/fontes/nossoplayer/globoPR.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globoPR.m3u8
+ #EXTINF:-1 tvg-id="globoBA" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoBA
+ https://s2.choraporco.icu/fontes/nossoplayer/globoBA.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globoBA.m3u8
+ #EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",cnnbrasil
+ https://s2.choraporco.icu/fontes/nossoplayer/cnnbrasil.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/cnnbrasil.m3u8
+ #EXTINF:-1 tvg-id="bandnews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",bandnews
+ https://s2.choraporco.icu/fontes/nossoplayer/bandnews.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/bandnews.m3u8
+ #EXTINF:-1 tvg-id="globonews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",globonews
+ https://s2.choraporco.icu/fontes/nossoplayer/globonews.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/globonews.m3u8
+ #EXTINF:-1 tvg-id="band" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-band-ao-vivo.webp" group-title="ABERTOS",band
+ https://s2.choraporco.icu/fontes/nossoplayer/band.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/band.m3u8
+ #EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
+ https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
+ #EXTINF:-1 tvg-id="sbt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/06/assistir-sbt-ao-vivo.webp" group-title="ABERTOS",sbt
+ https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/sbt.m3u8
+ 
+ #EXTINF:-1 tvg-id="discoverychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-discovery-channel-ao-vivo.webp" group-title="DOCUMENTARIO",discoverychannel
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverychannel.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverychannel.m3u8
+ #EXTINF:-1 tvg-id="discoveryid" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2022/03/assistir-id-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryid
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryid.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryid.m3u8
+ #EXTINF:-1 tvg-id="discoveryworld" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovey-world-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryworld
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryworld.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryworld.m3u8
+ #EXTINF:-1 tvg-id="discoverytheater" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-theater-ao-vivo.webp" group-title="DOCUMENTARIO",discoverytheater
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverytheater.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoverytheater.m3u8
+ #EXTINF:-1 tvg-id="discoveryheh" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-home-health-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryheh
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryheh.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryheh.m3u8
+ #EXTINF:-1 tvg-id="discoveryscience" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-science-ao-vivo.webp" group-title="DOCUMENTARIO",discoveryscience
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryscience.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/discoveryscience.m3u8
+ #EXTINF:-1 tvg-id="nationalgeographic" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-national-ao-vivo.webp" group-title="DOCUMENTARIO",nationalgeographic
+ https://s2.choraporco.icu/fontes/nossoplayer/nationalgeographic.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/nationalgeographic.m3u8
+ #EXTINF:-1 tvg-id="history" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-ao-vivo.webp" group-title="DOCUMENTARIO",history
+ https://s2.choraporco.icu/fontes/nossoplayer/history.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/history.m3u8
+ #EXTINF:-1 tvg-id="history2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-2-ao-vivo.webp" group-title="DOCUMENTARIO",history2
+ https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
+ #EXTINF:-1 tvg-id="history2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-history-2-ao-vivo.webp" group-title="DOCUMENTARIO",history2
+ https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/history2.m3u8
+ #EXTINF:-1 tvg-id="animalplanet" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-animal-planet-ao-vivo.webp" group-title="DOCUMENTARIO",animalplanet
+ https://s2.choraporco.icu/fontes/nossoplayer/animalplanet.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/animalplanet.m3u8
+ #EXTINF:-1 tvg-id="tlc" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-tlc-ao-vivo.webp" group-title="DOCUMENTARIO",tlc
+ https://s2.choraporco.icu/fontes/nossoplayer/tlc.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/tlc.m3u8
+ #EXTINF:-1 tvg-id="trutv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2024/02/Assistir-TruTV-ao-vivo.webp" group-title="DOCUMENTARIO",trutv
+ https://s2.choraporco.icu/fontes/nossoplayer/trutv.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/trutv.m3u8
+ #EXTINF:-1 tvg-id="cinecanal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2022/04/assistir-cinecanal-ao-vivo.webp" group-title="DOCUMENTARIO",cinecanal
+ https://s2.choraporco.icu/fontes/nossoplayer/cinecanal.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/cinecanal.m3u8
+ #EXTINF:-1 tvg-id="amc" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-amc-ao-vivo.webp" group-title="DOCUMENTARIO",amc
+ https://s2.choraporco.icu/fontes/nossoplayer/amc.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/amc.m3u8
+ #EXTINF:-1 tvg-id="fx" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="DOCUMENTARIO",fx
+ https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/fx.m3u8
+ #EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2024/05/assistir-paramount-ao-vivo.webp" group-title="DOCUMENTARIO",paramountnetwork
+ https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/paramountnetwork.m3u8
+ 
+ #EXTINF:-1 tvg-id="multishow" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/10/assistir-multishow-ao-vivo.webp" group-title="VARIEDADES",multishow
+ https://s2.choraporco.icu/fontes/nossoplayer/multishow.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/multishow.m3u8
+ #EXTINF:-1 tvg-id="gnt" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gnt-ao-vivo.webp" group-title="VARIEDADES",gnt
+ https://s2.choraporco.icu/fontes/nossoplayer/gnt.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/gnt.m3u8
+ #EXTINF:-1 tvg-id="viva" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-viva-ao-vivo.webp" group-title="VARIEDADES",viva
+ https://s2.choraporco.icu/fontes/nossoplayer/viva.m3u8
+ https://s2.choraporco.icu/fontes/nossoplayer/viva.m3u8
+ #EXTINF:-1 tvg-id="comedycentral" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-comedy-central-ao-vivo.webp" group-title="VARIEDADES",comedycentral
+ https://d1r94zrwa3gnlo.cloudfront.net/livestore102/stream/hls/288/288.m3u8
+ #EXTINF:-1 tvg-id="MTV Brasil" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-mtv-ao-vivo.webp" group-title="VARIEDADES",MTV Brasil
+ https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287.m3u8
+ #EXTINF:-1 tvg-id="Art 1" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-arte-1-ao-vivo.webp" group-title="VARIEDADES",Art 1
+ https://d1r94zrwa3gnlo.cloudfront.net/livestore104/stream/hls/292/292.m3u8
+ 
+ #EXTINF:-1 tvg-id="SEXHOT" tvg-logo="https://piratatvs.com/wp-content/uploads/2022/04/sexyhot.jpg" group-title="ADULTO XXX",SEXHOT
+ https://new.m3u8.one/sexhot.m3u8
