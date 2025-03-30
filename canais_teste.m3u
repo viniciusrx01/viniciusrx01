@@ -2,48 +2,33 @@
  #EXTM3U
  #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
  https://s2.choraporco.icu/fontes/nossoplayer/espn.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/espn.m3u8
  #EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
- https://s2.choraporco.icu/fontes/nossoplayer/espn2.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/espn2.m3u8
  #EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3
  https://s2.choraporco.icu/fontes/nossoplayer/espn3.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/espn3.m3u8
  #EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4
- https://s2.choraporco.icu/fontes/nossoplayer/espn4.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/espn4.m3u8
  #EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5
  https://s2.choraporco.icu/fontes/nossoplayer/espn5.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/espn5.m3u8
  #EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://encurtador.com.br/bVA5K" group-title="Esporte",ESPN 6
- https://s2.choraporco.icu/fontes/nossoplayer/espn6.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/espn6.m3u8
  #EXTINF:-1 tvg-id="SPORTV" tvg-logo="https://encurtador.com.br/QuM3k" group-title="Esporte",SPORTV
  https://s2.choraporco.icu/fontes/nossoplayer/sportv.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/sportv.m3u8
  #EXTINF:-1 tvg-id="SPORTV2" tvg-logo="https://encurtador.com.br/V3CpO" group-title="Esporte",SPORTV 2
- https://s2.choraporco.icu/fontes/nossoplayer/sportv2.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/sportv2.m3u8
  #EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3
  https://s2.choraporco.icu/fontes/nossoplayer/sportv3.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/sportv3.m3u8
  #EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE
  https://s2.choraporco.icu/fontes/nossoplayer/premiereclubes.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/premiere1.m3u8
  #EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2
- https://s2.choraporco.icu/fontes/nossoplayer/premiere2.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/premiere2.m3u8
  #EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3
  https://s2.choraporco.icu/fontes/nossoplayer/premiere3.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/premiere3.m3u8
  #EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4
- https://s2.choraporco.icu/fontes/nossoplayer/premiere4.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/premiere4.m3u8
  #EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE
  https://s2.choraporco.icu/fontes/nossoplayer/combate.m3u8
- https://s2.choraporco.icu/fontes/nossoplayer/combate.m3u8
  #EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF
- https://s2.choraporco.icu/fontes/nossoplayer/canaloff.m3u8
  https://s2.choraporco.icu/fontes/nossoplayer/canaloff.m3u8
  
  #EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK
