@@ -118,54 +118,105 @@ https://onplaytv.net/gloobinho/video.m3u8
  
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
 https://onplaytv.net/hbo/video.m3u8
+#EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO SD
+https://onplaytv.net/hbo/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="hbo2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-2-ao-vivo.webp" group-title="FILME",HBO 2
 https://onplaytv.net/hbo2/video.m3u8
+#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-2-ao-vivo.webp" group-title="FILME",HBO 2
+https://onplaytv.net/hbo2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="hboplus" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-plus-ao-vivo.webp" group-title="FILME",HBO Plus
 https://onplaytv.net/hboplus/video.m3u8
+#EXTINF:-1 tvg-id="hboplus" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-plus-ao-vivo.webp" group-title="FILME",HBO Plus SD
+https://onplaytv.net/hboplus/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="hbofamily" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-family-ao-vivo.webp" group-title="FILME",HBO Family
 https://onplaytv.net/hbofamily/video.m3u8
+#EXTINF:-1 tvg-id="hbofamily" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-family-ao-vivo.webp" group-title="FILME",HBO Family SD
+https://onplaytv.net/hbofamily/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="hboxtreme" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-xtreme-ao-vivo.webp" group-title="FILME",HBO XTREME
 https://onplaytv.net/hboxtreme/video.m3u8
+#EXTINF:-1 tvg-id="hboxtreme" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-hbo-xtreme-ao-vivo.webp" group-title="FILME",HBO XTREME SD
+https://onplaytv.net/hboxtreme/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="FX" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="FILME",FX
 https://onplaytv.net/fx/video.m3u8
+#EXTINF:-1 tvg-id="FX" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-fx-ao-vivo.webp" group-title="FILME",FX SD
+https://onplaytv.net/fx/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS
 https://onplaytv.net/bis/video.m3u8
+#EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS SD
+https://onplaytv.net/bis/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount
 https://onplaytv.net/paramountnetwork/video.m3u8
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount SD
+https://onplaytv.net/paramountnetwork/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix
 https://onplaytv.net/megapix/video.m3u8
+#EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix SD
+https://onplaytv.net/megapix/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="axn" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-axn-ao-vivo.webp" group-title="FILME",AXN
 https://onplaytv.net/axn/video.m3u8
+#EXTINF:-1 tvg-id="axn" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-axn-ao-vivo.webp" group-title="FILME",AXN SD
+https://onplaytv.net/axn/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",Space
 https://onplaytv.net/space/video.m3u8
+#EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",Space SD
+https://onplaytv.net/space/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="sonychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-sony-ao-vivo.webp" group-title="FILME",sonychannel
 https://onplaytv.net/sonychannel/video.m3u8
+#EXTINF:-1 tvg-id="sonychannel" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-sony-ao-vivo.webp" group-title="FILME",sonychannel SD
+https://onplaytv.net/sonychannel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="studiouniversal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-studio-universal-ao-vivo.webp" group-title="FILME",studiouniversal
 https://onplaytv.net/studiouniversal/video.m3u8
+#EXTINF:-1 tvg-id="studiouniversal" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-studio-universal-ao-vivo.webp" group-title="FILME",studiouniversal SD
+https://onplaytv.net/studiouniversal/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="universaltv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-universal-tv-ao-vivo.webp" group-title="FILME",universaltv
 https://onplaytv.net/universaltv/video.m3u8
+#EXTINF:-1 tvg-id="universaltv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-universal-tv-ao-vivo.webp" group-title="FILME",universaltv SD
+https://onplaytv.net/universaltv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tcpipoca" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-pipoca-ao-vivo.webp" group-title="FILME",tcpipoca
 https://onplaytv.net/tcpipoca/video.m3u8
+#EXTINF:-1 tvg-id="tcpipoca" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-pipoca-ao-vivo.webp" group-title="FILME",tcpipoca SD
+https://onplaytv.net/tcpipoca/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tctouch" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-touch-ao-vivo.webp" group-title="FILME",tctouch
 https://onplaytv.net/tctouch/video.m3u8
+#EXTINF:-1 tvg-id="tctouch" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-touch-ao-vivo.webp" group-title="FILME",tctouch SD
+https://onplaytv.net/tctouch/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tcpremium" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-premium-ao-vivo.webp" group-title="FILME",tcpremium
 https://onplaytv.net/tcpremium/video.m3u8
+#EXTINF:-1 tvg-id="tcpremium" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-premium-ao-vivo.webp" group-title="FILME",tcpremium SD
+https://onplaytv.net/tcpremium/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tcfun" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/08/TELECINE-FUN-1-1.jpg.webp" group-title="FILME",tcfun
 https://onplaytv.net/tcfun/video.m3u8
+#EXTINF:-1 tvg-id="tcfun" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/08/TELECINE-FUN-1-1.jpg.webp" group-title="FILME",tcfun SD
+https://onplaytv.net/tcfun/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tccult" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-cult-ao-vivo.webp" group-title="FILME",tccult
 https://onplaytv.net/tccult/video.m3u8
+#EXTINF:-1 tvg-id="tccult" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-telecine-cult-ao-vivo.webp" group-title="FILME",tccult SD
+https://onplaytv.net/tccult/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/TNT.jpg.webp" group-title="FILME",tnt
 https://onplaytv.net/tnt/video.m3u8
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/TNT.jpg.webp" group-title="FILME",tnt SD
+https://onplaytv.net/tnt/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="warnertv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-warner-ao-vivo.webp" group-title="FILME",Warnertv
 https://onplaytv.net/warnertv/video.m3u8
+#EXTINF:-1 tvg-id="warnertv" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-warner-ao-vivo.webp" group-title="FILME",Warnertv SD
+https://onplaytv.net/warnertv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="cinemax" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CINEMAX.jpg.webp" group-title="FILME",cinemax
 https://onplaytv.net/cinemax/video.m3u8
+#EXTINF:-1 tvg-id="cinemax" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CINEMAX.jpg.webp" group-title="FILME",cinemax SD
+https://onplaytv.net/cinemax/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="starchannel" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/STAR-CHANNEL-1.jpg.webp" group-title="FILME",starchannel
 https://onplaytv.net/starchannel/video.m3u8
+#EXTINF:-1 tvg-id="starchannel" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/STAR-CHANNEL-1.jpg.webp" group-title="FILME",starchannel SD
+https://onplaytv.net/starchannel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ae" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/AE-MUNDO.jpg.webp" group-title="FILME",A&E
 https://onplaytv.net/ae/video.m3u8
+#EXTINF:-1 tvg-id="ae" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/AE-MUNDO.jpg.webp" group-title="FILME",A&E SD
+https://onplaytv.net/ae/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",space
 https://onplaytv.net/space/video.m3u8
+#EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",space SD
+https://onplaytv.net/space/tracks-v1a1/mono.ts.m3u8
+ 
  
 #EXTINF:-1 tvg-id="globoSP" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoSP
 https://onplaytv.net/globoSP/video.m3u8
