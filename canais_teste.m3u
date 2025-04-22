@@ -144,9 +144,9 @@ https://onplaytv.net/fx/tracks-v1a1/mono.ts.m3u8
 https://onplaytv.net/bis/video.m3u8
 #EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS SD
 https://onplaytv.net/bis/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ea/Paramount%2B_logo.png" group-title="FILME",Paramount
 https://onplaytv.net/paramountnetwork/video.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount SD
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ea/Paramount%2B_logo.png" group-title="FILME",Paramount SD
 https://onplaytv.net/paramountnetwork/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix
 https://onplaytv.net/megapix/video.m3u8
