@@ -2,49 +2,93 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN
 https://onplaytv.net/espn/video.m3u8
+#EXTINF:-1 tvg-id="ESPN" tvg-logo="https://encurtador.com.br/2ClXE" group-title="Esporte",ESPN SD
+https://onplaytv.net/espn/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2
 https://onplaytv.net/espn2/video.m3u8
+#EXTINF:-1 tvg-id="ESPN2" tvg-logo="https://encurtador.com.br/TUvOF" group-title="Esporte",ESPN 2 SD
+https://onplaytv.net/espn2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3
 https://onplaytv.net/espn3/video.m3u8
+#EXTINF:-1 tvg-id="ESPN3" tvg-logo="https://encurtador.com.br/bj4cY" group-title="Esporte",ESPN 3 SD
+https://onplaytv.net/espn3/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4
 https://onplaytv.net/espn4/video.m3u8
+#EXTINF:-1 tvg-id="ESPN4" tvg-logo="https://encurtador.com.br/pdVTB" group-title="Esporte",ESPN  4 SD
+https://onplaytv.net/espn4/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5
 https://onplaytv.net/espn5/video.m3u8
+#EXTINF:-1 tvg-id="ESPN5" tvg-logo="https://encurtador.com.br/xcYoM" group-title="Esporte",ESPN 5 SD
+https://onplaytv.net/espn5/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://encurtador.com.br/bVA5K" group-title="Esporte",ESPN 6
 https://onplaytv.net/espn6/video.m3u8
+#EXTINF:-1 tvg-id="ESPN6" tvg-logo="https://encurtador.com.br/bVA5K" group-title="Esporte",ESPN 6 SD
+https://onplaytv.net/espn6/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="SPORTV" tvg-logo="https://encurtador.com.br/QuM3k" group-title="Esporte",SPORTV
 https://onplaytv.net/sportv/video.m3u8
+#EXTINF:-1 tvg-id="SPORTV" tvg-logo="https://encurtador.com.br/QuM3k" group-title="Esporte",SPORTV SD
+https://onplaytv.net/sportv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="SPORTV2" tvg-logo="https://encurtador.com.br/V3CpO" group-title="Esporte",SPORTV 2
 https://onplaytv.net/sportv2/video.m3u8
+#EXTINF:-1 tvg-id="SPORTV2" tvg-logo="https://encurtador.com.br/V3CpO" group-title="Esporte",SPORTV 2 SD
+https://onplaytv.net/sportv2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3
 https://onplaytv.net/sportv3/video.m3u8
+#EXTINF:-1 tvg-id="SPORTV3" tvg-logo="https://encurtador.com.br/yoK06" group-title="Esporte",SPORTV 3 SD
+https://onplaytv.net/sportv3/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE
 https://onplaytv.net/premiereclubes/video.m3u8
+#EXTINF:-1 tvg-id="PREMIERE" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE SD
+https://onplaytv.net/premiereclubes/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2
 https://onplaytv.net/premiere2/video.m3u8
+#EXTINF:-1 tvg-id="PREMIERE2" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 2 SD
+https://onplaytv.net/premiere2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3
 https://onplaytv.net/premiere3/video.m3u8
+#EXTINF:-1 tvg-id="PREMIERE3" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 3 SD
+https://onplaytv.net/premiere3/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4
 https://onplaytv.net/premiere4/video.m3u8
+#EXTINF:-1 tvg-id="PREMIERE4" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-premiere-ao-vivo.webp" group-title="Esporte",PREMIERE 4 SD
+https://onplaytv.net/premiere4/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE
 https://onplaytv.net/combate/video.m3u8
+#EXTINF:-1 tvg-id="COMBATE" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/COMBATE.jpg.webp" group-title="Esporte",COMBATE SD
+https://onplaytv.net/combate/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF
 https://onplaytv.net/canaloff/video.m3u8
+#EXTINF:-1 tvg-id="OFF" tvg-logo="https://supertvaovivo.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/CANAL-OFF.jpg.webp" group-title="Esporte",OFF SD
+https://onplaytv.net/canaloff/tracks-v1a1/mono.ts.m3u8
  
 #EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK
 https://onplaytv.net/cartoonnetwork/video.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoon-ao-vivo.webp" group-title="Desenho",CARTOONNETWORK SD
+https://onplaytv.net/cartoonnetwork/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoonito-ao-vivo.webp" group-title="Desenho",CARTOONITO
 https://onplaytv.net/cartoonito/video.m3u8
+#EXTINF:-1 tvg-id="Cartoonito" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-cartoonito-ao-vivo.webp" group-title="Desenho",CARTOONITO SD
+https://onplaytv.net/cartoonito/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-disney-channel-ao-vivo.webp" group-title="Desenho",DISNEY CHANNEL
 https://onplaytv.net/disneychannel/video.m3u8
+#EXTINF:-1 tvg-id="DISNEYCHANNEL" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-disney-channel-ao-vivo.webp" group-title="Desenho",DISNEY CHANNEL SD
+https://onplaytv.net/disneychannel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="NickJR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickjr-ao-vivo.webp" group-title="Desenho",NICK JR
 https://onplaytv.net/nickjr/video.m3u8
+#EXTINF:-1 tvg-id="NickJR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickjr-ao-vivo.webp" group-title="Desenho",NICK JR SD
+https://onplaytv.net/nickjr/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickelodeon-ao-vivo.webp" group-title="Desenho",Nickelodeon
 https://onplaytv.net/nickelodeon/video.m3u8
+#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-nickelodeon-ao-vivo.webp" group-title="Desenho",Nickelodeon SD
+https://onplaytv.net/nickelodeon/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-kids-ao-vivo.webp" group-title="Desenho",DiscoveryKids
 https://onplaytv.net/discoverykids/video.m3u8
+#EXTINF:-1 tvg-id="discoverykids" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-discovery-kids-ao-vivo.webp" group-title="Desenho",DiscoveryKids SD
+https://onplaytv.net/discoverykids/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho
 https://onplaytv.net/gloobinho/video.m3u8
+#EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho SD
+https://onplaytv.net/gloobinho/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Os Jatsons" tvg-logo="https://encurtador.com.br/f1yuh" group-title="Desenho",Os Jetsons
 https://stmv1.srvif.com/jetsontv/jetsontv/playlist/video.m3u8
 #EXTINF:-1 tvg-id="Retro Cartoon" tvg-logo="https://encurtador.com.br/qtsIn" group-title="Desenho",Retro Cartoon
