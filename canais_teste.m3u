@@ -114,6 +114,9 @@ https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist/video.m3u
 #EXTINF:-1 tvg-id="Toon Goggles" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/26309f3e115d9326a50aeb84c794f1fe.webp" group-title="Desenho",Toon Goggles
 https://stream.ads.ottera.tv/cl/250328cvjfe7jgitmmmcp0d3gg/1280x720_3071200_0_f/video.m3u8?i=475_274
 https://onplaytv.net/gloobinho/video.m3u8
+#EXTINF:-1 tvg-id="adultswim" tvg-logo="https://futemax.ng/wp-content/uploads/Adult-Swim.webp" group-title="Desenho",adultswim
+https://onplaytv.net/adultswim/video.m3u8
+
 
  
 #EXTINF:-1 tvg-id="hbo" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-hbo-ao-vivo.webp" group-title="FILME",HBO
@@ -144,9 +147,9 @@ https://onplaytv.net/fx/tracks-v1a1/mono.ts.m3u8
 https://onplaytv.net/bis/video.m3u8
 #EXTINF:-1 tvg-id="bis" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",BIS SD
 https://onplaytv.net/bis/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ea/Paramount%2B_logo.png" group-title="FILME",Paramount
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount
 https://onplaytv.net/paramountnetwork/video.m3u8
-#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ea/Paramount%2B_logo.png" group-title="FILME",Paramount SD
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-bis-ao-vivo.webp" group-title="FILME",Paramount SD
 https://onplaytv.net/paramountnetwork/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="megapix" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-megapix-ao-vivo.webp" group-title="FILME",Megapix
 https://onplaytv.net/megapix/video.m3u8
@@ -217,17 +220,16 @@ https://onplaytv.net/space/video.m3u8
 #EXTINF:-1 tvg-id="space" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-space-ao-vivo.webp" group-title="FILME",space SD
 https://onplaytv.net/space/tracks-v1a1/mono.ts.m3u8
  
- 
 #EXTINF:-1 tvg-id="globoSP" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoSP
-https://onplaytv.net/globoSP/video.m3u8
+https://onplaytv.net/globosp/video.m3u8
 #EXTINF:-1 tvg-id="globoRJ" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoRJ
-https://onplaytv.net/globorj-globorio/video.m3u8
+https://onplaytv.net/globorj/video.m3u8
 #EXTINF:-1 tvg-id="globoMG" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoMG
-https://onplaytv.net/globoMG/video.m3u8
+https://onplaytv.net/globomg/video.m3u8
 #EXTINF:-1 tvg-id="globoPR" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoPR
-https://onplaytv.net/globoPR/video.m3u8
+https://onplaytv.net/globopr/video.m3u8
 #EXTINF:-1 tvg-id="globoBA" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/07/assistir-globo-ao-vivo.webp" group-title="ABERTOS",globoBA
-https://onplaytv.net/globoBA/video.m3u8
+https://onplaytv.net/globoba/video.m3u8
 #EXTINF:-1 tvg-id="cnnbrasil" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",cnnbrasil
 https://onplaytv.net/cnnbrasil/video.m3u8
 #EXTINF:-1 tvg-id="bandnews" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="ABERTOS",bandnews
@@ -288,6 +290,9 @@ https://d1r94zrwa3gnlo.cloudfront.net/livestore102/stream/hls/288/288/video.m3u8
 https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287/video.m3u8
 #EXTINF:-1 tvg-id="Art 1" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-arte-1-ao-vivo.webp" group-title="VARIEDADES",Art 1
 https://d1r94zrwa3gnlo.cloudfront.net/livestore104/stream/hls/292/292/video.m3u8
+#EXTINF:-1 tvg-id="lifetime" tvg-logo="https://futemax.ng/wp-content/uploads/lifetime.png" group-title="VARIEDADES",lifetime
+https://onplaytv.net/lifetime/video.m3u8
+
 
 #EXTINF:-1 tvg-id="SEXHOT" tvg-logo="https://piratatvs.com/wp-content/uploads/2022/04/sexyhot.jpg" group-title="ADULTO XXX",SEXHOT
 https://new/video.m3u8.one/sexhot/video.m3u8
