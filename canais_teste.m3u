@@ -90,7 +90,7 @@ https://onplaytv.net/gloobinho/video.m3u8
 #EXTINF:-1 tvg-id="gloobinho" tvg-logo="https://supertvaovivo.io/wp-content/uploads/2021/08/assistir-gloob-ao-vivo.webp" group-title="Desenho",Gloobinho SD
 https://onplaytv.net/gloobinho/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Os Jatsons" tvg-logo="https://encurtador.com.br/f1yuh" group-title="Desenho",Os Jetsons
-https://stmv1.srvif.com/jetsontv/jetsontv/playlist/video.m3u8
+https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 #EXTINF:-1 tvg-id="Retro Cartoon" tvg-logo="https://encurtador.com.br/qtsIn" group-title="Desenho",Retro Cartoon
 https://stmv6.voxtvhd.com.br/retrotv3/retrotv3/playlist.m3u8
 #EXTINF:-1 tvg-id="animetv" tvg-logo="https://encurtador.com.br/eLWdG" group-title="Desenho",animetv
@@ -116,6 +116,10 @@ https://stream.ads.ottera.tv/cl/250328cvjfe7jgitmmmcp0d3gg/1280x720_3071200_0_f/
 https://onplaytv.net/gloobinho/video.m3u8
 #EXTINF:-1 tvg-id="adultswim" tvg-logo="https://futemax.ng/wp-content/uploads/Adult-Swim.webp" group-title="Desenho",adultswim
 https://onplaytv.net/adultswim/video.m3u8
+#EXTINF:-1 tvg-id="MR BEAN 2" tvg-logo="https://encurtador.com.br/sOuej" group-title="Desenho",MR BEAN 2
+https://amg00627-banijay-amg00627c35-plex-us-4257.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanbr-plexus/playlist.m3u8
+#EXTINF:-1 tvg-id="THE SMURFS TV" tvg-logo="https://encurtador.com.br/kBseM" group-title="Desenho",THE SMURFS TV
+https://d144py1prrd7ns.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-affg2ev32s0dq/smrfe.m3u8
 
 
  
@@ -292,6 +296,8 @@ https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287/video.m3u8
 https://d1r94zrwa3gnlo.cloudfront.net/livestore104/stream/hls/292/292/video.m3u8
 #EXTINF:-1 tvg-id="lifetime" tvg-logo="https://futemax.ng/wp-content/uploads/lifetime.png" group-title="VARIEDADES",lifetime
 https://onplaytv.net/lifetime/video.m3u8
+#EXTINF:-1 tvg-id="XtremeTV" tvg-logo="https://encurtador.com.br/7kaV5" group-title="VARIEDADES",XtremeTV
+https://stmv1.srvif.com/xtremetv/xtremetv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="SEXHOT" tvg-logo="https://piratatvs.com/wp-content/uploads/2022/04/sexyhot.jpg" group-title="ADULTO XXX",SEXHOT
