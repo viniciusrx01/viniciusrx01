@@ -33,9 +33,9 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120592
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120593
 #EXTINF:-1 tvg-id="" tvg-name="BR: CARTOON NETWORK" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RuauIRM6wYA9-rCL3QO-lbgndnksb_akTsRMSuwQPSzw.png" group-title="Brazil",BR: CARTOON NETWORK
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120594
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="Brazil",BR: Cartoonito
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="Infantil",BR: Cartoonito
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120595
-#EXTINF:-1 tvg-id="" tvg-name="BR: CBN Español" tvg-logo="" group-title="Brazil",BR: CBN Español
+#EXTINF:-1 tvg-id="" tvg-name="BR: CBN Español" tvg-logo="" group-title="Infantil",BR: CBN Español
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120596
 #EXTINF:-1 tvg-id="" tvg-name="BR: CINEMAX" tvg-logo="http://fanc.tmsimg.com/assets/s75583_ll_h3_ab.png" group-title="Brazil",BR: CINEMAX
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120597
@@ -63,7 +63,7 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120607
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120608
 #EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY ID" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78Rc5mzrdhPicPTx8EzgbTzgV6NXm_v7sJ0Ntk0-gQkXKQ.png" group-title="Brazil",BR: DISCOVERY ID
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120609
-#EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY KIDS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PBRuLsddRY96gtDGyMjRwKGVFUFcpzJsbk69YviU7csgxsQh7BjZpR4CkRmJ0ZQEg.png" group-title="Brazil",BR: DISCOVERY KIDS
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY KIDS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PBRuLsddRY96gtDGyMjRwKGVFUFcpzJsbk69YviU7csgxsQh7BjZpR4CkRmJ0ZQEg.png" group-title="Infantil",BR: DISCOVERY KIDS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120610
 #EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY SCIENCE" tvg-logo="http://fanc.tmsimg.com/assets/s107895_ll_h3_aa.png" group-title="Brazil",BR: DISCOVERY SCIENCE
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120611
@@ -75,11 +75,11 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120613
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120614
 #EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY WORLD" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78QfS9y6lVcTsQnF_-HH7Vslde02eCjj4rGqGl4Eqvudlw.png" group-title="Brazil",BR: DISCOVERY WORLD
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120615
-#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY CHANNEL" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TzDr5CW1Bwmbi0XFSFClq81nnUVV7d0zHKCRfqXi_yAQ.png" group-title="Brazil",BR: DISNEY CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY CHANNEL" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TzDr5CW1Bwmbi0XFSFClq81nnUVV7d0zHKCRfqXi_yAQ.png" group-title="Infantil",BR: DISNEY CHANNEL
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120616
-#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY JR" tvg-logo="" group-title="Brazil",BR: DISNEY JR
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY JR" tvg-logo="" group-title="Infantil",BR: DISNEY JR
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120617
-#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY XD" tvg-logo="http://fanc.tmsimg.com/assets/s101131_h3_aa.png" group-title="Brazil",BR: DISNEY XD
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY XD" tvg-logo="http://fanc.tmsimg.com/assets/s101131_h3_aa.png" group-title="Infantil",BR: DISNEY XD
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120618
 #EXTINF:-1 tvg-id="" tvg-name="BR: E!" tvg-logo="http://fanc.tmsimg.com/assets/s102367_ll_h3_aa.png" group-title="Brazil",BR: E!
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120619
@@ -231,23 +231,23 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120691
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120692
 #EXTINF:-1 tvg-id="" tvg-name="BR: HBO Extreme" tvg-logo="" group-title="Brazil",BR: HBO Extreme
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120693
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO FAMILY" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuumtyC7yZQoiBEsvzN3M4HLHsg6bhMAY71LSEijuvkjDeyA.png" group-title="Brazil",BR: HBO FAMILY
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO FAMILY" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuumtyC7yZQoiBEsvzN3M4HLHsg6bhMAY71LSEijuvkjDeyA.png" group-title="HBO",BR: HBO FAMILY
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120694
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO Mundi" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2IPJinOlJVnENfBFlS2f8OESQXd36GQ7iRwGgy7iQ71JEwde38_rsignhDkusNoDyQ.png" group-title="Brazil",BR: HBO Mundi
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO Mundi" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2IPJinOlJVnENfBFlS2f8OESQXd36GQ7iRwGgy7iQ71JEwde38_rsignhDkusNoDyQ.png" group-title="HBO",BR: HBO Mundi
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120695
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO PLUS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrUius15_BgTZ5WS7Et2-M28G_oq8UIFnHlfMEiuJ4t3g.png" group-title="Brazil",BR: HBO PLUS
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO PLUS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrUius15_BgTZ5WS7Et2-M28G_oq8UIFnHlfMEiuJ4t3g.png" group-title="HBO",BR: HBO PLUS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120696
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO Pop" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78R36XWYXWGQns6z0sVfBDkKeP3iY1rN1dvUZGi3b6_Wog.png" group-title="Brazil",BR: HBO Pop
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO Pop" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78R36XWYXWGQns6z0sVfBDkKeP3iY1rN1dvUZGi3b6_Wog.png" group-title="HBO",BR: HBO Pop
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120697
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO SIGNATURE" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuums94P2iM7UT072_tFUbSugtW_4acxJStjYS6w3yiu158Q.png" group-title="Brazil",BR: HBO SIGNATURE
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO SIGNATURE" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuums94P2iM7UT072_tFUbSugtW_4acxJStjYS6w3yiu158Q.png" group-title="HBO",BR: HBO SIGNATURE
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120698
-#EXTINF:-1 tvg-id="" tvg-name="BR: HBO XTREME" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2GwUee_HeV47TzX8gNpnfyAXiZsFqSv4VrHkm_OzGuOolSjY4ETiwXAKG_mxymIHNw.png" group-title="Brazil",BR: HBO XTREME
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO XTREME" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2GwUee_HeV47TzX8gNpnfyAXiZsFqSv4VrHkm_OzGuOolSjY4ETiwXAKG_mxymIHNw.png" group-title="HBO",BR: HBO XTREME
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120699
 #EXTINF:-1 tvg-id="" tvg-name="BR: HGTV" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrNQo0Wu_zIUR40AOjITRMwgd6Qpv2UKlAZuEJVc9Na0Q.png" group-title="Brazil",BR: HGTV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120700
-#EXTINF:-1 tvg-id="" tvg-name="BR: HISTORY CHANNEL" tvg-logo="" group-title="Brazil",BR: HISTORY CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="BR: HISTORY CHANNEL" tvg-logo="" group-title="Variedades",BR: HISTORY CHANNEL
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120701
-#EXTINF:-1 tvg-id="" tvg-name="BR: JOVEM PAN NEWS" tvg-logo="" group-title="Brazil",BR: JOVEM PAN NEWS
+#EXTINF:-1 tvg-id="" tvg-name="BR: JOVEM PAN NEWS" tvg-logo="" group-title="Notícias",BR: JOVEM PAN NEWS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120702
 #EXTINF:-1 tvg-id="" tvg-name="BR: LIFETIME" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PBRuLsddRY96gtDGyMjRwLndcvXQat1dJuR9nb_tbTNCnZupqNsP3RGfaKHhjnSug.png" group-title="Brazil",BR: LIFETIME
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120703
@@ -259,17 +259,17 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120705
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120706
 #EXTINF:-1 tvg-id="" tvg-name="BR: Music Box Brazil" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuumuzYQSrKDj8wf6Z7AIhS2vE330LWpuD4HApp_j7JiEDWg.png" group-title="Brazil",BR: Music Box Brazil
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120707
-#EXTINF:-1 tvg-id="" tvg-name="BR: NAT GEO KIDS" tvg-logo="https://asiagrandiptv.us/logo/natgeokids.png" group-title="Brazil",BR: NAT GEO KIDS
+#EXTINF:-1 tvg-id="" tvg-name="BR: NAT GEO KIDS" tvg-logo="https://asiagrandiptv.us/logo/natgeokids.png" group-title="Infantil",BR: NAT GEO KIDS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120708
 #EXTINF:-1 tvg-id="" tvg-name="BR: NAT GEO WILD" tvg-logo="" group-title="Brazil",BR: NAT GEO WILD
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120709
 #EXTINF:-1 tvg-id="" tvg-name="BR: NAT GEO" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuums_-fkkhbLP6THI49y2dSTcdang8NMOZZZcYNvZnLCZQw.png" group-title="Brazil",BR: NAT GEO
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120710
-#EXTINF:-1 tvg-id="" tvg-name="BR: NICKELODEON" tvg-logo="" group-title="Brazil",BR: NICKELODEON
+#EXTINF:-1 tvg-id="" tvg-name="BR: NICKELODEON" tvg-logo="" group-title="Infantil",BR: NICKELODEON
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120711
-#EXTINF:-1 tvg-id="" tvg-name="BR: NOVA ERA TV" tvg-logo="" group-title="Brazil",BR: NOVA ERA TV
+#EXTINF:-1 tvg-id="" tvg-name="BR: NOVA ERA TV" tvg-logo="" group-title="Religioso",BR: NOVA ERA TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120712
-#EXTINF:-1 tvg-id="" tvg-name="BR: NOVO TEMPO" tvg-logo="" group-title="Brazil",BR: NOVO TEMPO
+#EXTINF:-1 tvg-id="" tvg-name="BR: NOVO TEMPO" tvg-logo="" group-title="Religioso",BR: NOVO TEMPO
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120713
 #EXTINF:-1 tvg-id="" tvg-name="BR: OFF" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuumvPxne6s8u-idTICPIyYkAIign9niJGEOna9wyVwBgdQA.png" group-title="Esporte",BR: OFF
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120714
@@ -293,37 +293,37 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120722
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120723
 #EXTINF:-1 tvg-id="" tvg-name="BR: RA TIM BUM" tvg-logo="" group-title="Brazil",BR: RA TIM BUM
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120724
-#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78Qm_WxvU5l5L1CQHJ17RmDI1M8Bry08JrYi3IoH-iZqJg.png" group-title="Brazil",BR: RECORD
+#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78Qm_WxvU5l5L1CQHJ17RmDI1M8Bry08JrYi3IoH-iZqJg.png" group-title="Aberto",BR: RECORD
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120725
-#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD NEWS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2P5cikx_X-5NLuSijpV3_Zg_XA_pOlqZhg_XEWzwDbXEV7109ARRwmAzz01UO811VA.png" group-title="Brazil",BR: RECORD NEWS
+#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD NEWS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2P5cikx_X-5NLuSijpV3_Zg_XA_pOlqZhg_XEWzwDbXEV7109ARRwmAzz01UO811VA.png" group-title="Notícias",BR: RECORD NEWS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120726
-#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD RJ" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypmGPEfbuWufXOg6REJouU3XEmNjotH8LOJDvhG9_bIHw.png" group-title="Brazil",BR: RECORD RJ
+#EXTINF:-1 tvg-id="" tvg-name="BR: RECORD RJ" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypmGPEfbuWufXOg6REJouU3XEmNjotH8LOJDvhG9_bIHw.png" group-title="Aberto",BR: RECORD RJ
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120727
-#EXTINF:-1 tvg-id="" tvg-name="BR: Record RS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RWj0VcS2ON0DfbVCz7TAX1emEeFkvYsGc5Lq5_zqGc7Q.png" group-title="Brazil",BR: Record RS
+#EXTINF:-1 tvg-id="" tvg-name="BR: Record RS" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RWj0VcS2ON0DfbVCz7TAX1emEeFkvYsGc5Lq5_zqGc7Q.png" group-title="Aberto",BR: Record RS
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120728
-#EXTINF:-1 tvg-id="" tvg-name="BR: Record SP" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yoOw9GJs8x3GpMu7nCFgC2ttsSPI5fZu4rSCFDvn1hd2A.png" group-title="Brazil",BR: Record SP
+#EXTINF:-1 tvg-id="" tvg-name="BR: Record SP" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yoOw9GJs8x3GpMu7nCFgC2ttsSPI5fZu4rSCFDvn1hd2A.png" group-title="Aberto",BR: Record SP
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120729
 #EXTINF:-1 tvg-id="" tvg-name="BR: RedBull TV" tvg-logo="" group-title="Esporte",BR: RedBull TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120730
-#EXTINF:-1 tvg-id="" tvg-name="BR: Rede Gospel" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yo4eBJQS-hr7eTL24lDOlnJcp2NmoX-6z2d-sBaYrk5hQ.png" group-title="Brazil",BR: Rede Gospel
+#EXTINF:-1 tvg-id="" tvg-name="BR: Rede Gospel" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yo4eBJQS-hr7eTL24lDOlnJcp2NmoX-6z2d-sBaYrk5hQ.png" group-title="Religioso",BR: Rede Gospel
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120731
-#EXTINF:-1 tvg-id="" tvg-name="BR: Rede Mão Amiga" tvg-logo="" group-title="Brazil",BR: Rede Mão Amiga
+#EXTINF:-1 tvg-id="" tvg-name="BR: Rede Mão Amiga" tvg-logo="" group-title="Religioso",BR: Rede Mão Amiga
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120732
-#EXTINF:-1 tvg-id="" tvg-name="BR: REDE TV" tvg-logo="" group-title="Brazil",BR: REDE TV
+#EXTINF:-1 tvg-id="" tvg-name="BR: REDE TV" tvg-logo="" group-title="Aberto",BR: REDE TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120733
-#EXTINF:-1 tvg-id="" tvg-name="BR: REDE VIDA" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2P5cikx_X-5NLuSijpV3_ZgFFP-6RrztbCZtHs1aoY1EAFD7L0tx374md4YQpvKnlQ.png" group-title="Brazil",BR: REDE VIDA
+#EXTINF:-1 tvg-id="" tvg-name="BR: REDE VIDA" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2P5cikx_X-5NLuSijpV3_ZgFFP-6RrztbCZtHs1aoY1EAFD7L0tx374md4YQpvKnlQ.png" group-title="Religiono",BR: REDE VIDA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120734
-#EXTINF:-1 tvg-id="" tvg-name="BR: RPC TV CURITIBA" tvg-logo="" group-title="Brazil",BR: RPC TV CURITIBA
+#EXTINF:-1 tvg-id="" tvg-name="BR: RPC TV CURITIBA" tvg-logo="" group-title="Religioso",BR: RPC TV CURITIBA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120735
 #EXTINF:-1 tvg-id="" tvg-name="BR: RTL-TVI" tvg-logo="" group-title="Brazil",BR: RTL-TVI
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120736
-#EXTINF:-1 tvg-id="" tvg-name="BR: SBT" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrYi_-kWYPl1Kzd-innRahu85R4QuoVsv4vQRur7iFZVA.png" group-title="Brazil",BR: SBT
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrYi_-kWYPl1Kzd-innRahu85R4QuoVsv4vQRur7iFZVA.png" group-title="Aberto",BR: SBT
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120737
-#EXTINF:-1 tvg-id="" tvg-name="BR: Sbt Cidade Verde" tvg-logo="" group-title="Brazil",BR: Sbt Cidade Verde
+#EXTINF:-1 tvg-id="" tvg-name="BR: Sbt Cidade Verde" tvg-logo="" group-title="Aberto",BR: Sbt Cidade Verde
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120738
-#EXTINF:-1 tvg-id="" tvg-name="BR: SBT NORDESTE" tvg-logo="" group-title="Brazil",BR: SBT NORDESTE
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT NORDESTE" tvg-logo="" group-title="Aberto",BR: SBT NORDESTE
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120739
-#EXTINF:-1 tvg-id="" tvg-name="BR: SBT RJ" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuums2pUfIfIEHw9UdDrTZ25Uuarx_bv7saV03FQyeczb0DA.png" group-title="Brazil",BR: SBT RJ
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT RJ" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2NsZDpbr56w8hOM7fSmuums2pUfIfIEHw9UdDrTZ25Uuarx_bv7saV03FQyeczb0DA.png" group-title="Aberto",BR: SBT RJ
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120740
 #EXTINF:-1 tvg-id="" tvg-name="BR: SONY" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78SXCbgAhmBzUIvf4dcPcXShSaVhxznVd0TiqB2q4eB5iA.png" group-title="Brazil",BR: SONY
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120741
@@ -345,17 +345,17 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120748
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120749
 #EXTINF:-1 tvg-id="" tvg-name="BR: TCM" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2GwUee_HeV47TzX8gNpnfyB6-amoo_bB94PIAm3fod98NzlzFkX1QADSJgFB7DQyVQ.png" group-title="Brazil",BR: TCM
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120750
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE ACTION" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TSeFUilfmEfsSD_zydqnVSDvgKAfVBqIQA3wbv0GSGHA.png" group-title="Brazil",BR: TELECINE ACTION
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE ACTION" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TSeFUilfmEfsSD_zydqnVSDvgKAfVBqIQA3wbv0GSGHA.png" group-title="TELECINE",BR: TELECINE ACTION
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120751
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELE CINE CULT" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PBRuLsddRY96gtDGyMjRwLAoJXyfD4GGhda6eLySSYBVjWVs2N2--ruckU0cwd-Ew.png" group-title="Brazil",BR: TELE CINE CULT
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELE CINE CULT" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PBRuLsddRY96gtDGyMjRwLAoJXyfD4GGhda6eLySSYBVjWVs2N2--ruckU0cwd-Ew.png" group-title="TELECINE",BR: TELE CINE CULT
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120752
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE FUN" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RlEO8BhxRQDLJJDaTktIMkQ1UShC1Ydmw0-orh90t7AA.png" group-title="Brazil",BR: TELECINE FUN
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE FUN" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RlEO8BhxRQDLJJDaTktIMkQ1UShC1Ydmw0-orh90t7AA.png" group-title="TELECINE",BR: TELECINE FUN
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120753
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE PIPOCA" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TN7GVaFf54dm1KD00HZvn2hymV0nCuFPs_zRDQRMAX5g.png" group-title="Brazil",BR: TELECINE PIPOCA
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE PIPOCA" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78TN7GVaFf54dm1KD00HZvn2hymV0nCuFPs_zRDQRMAX5g.png" group-title="TELECINE",BR: TELECINE PIPOCA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120754
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE PREMIUM" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PncQnjvX0UIbf-mXiFDYhjZeyMvH3JEHsmfXc5U6ICSMphbl2Ysnz8buYSOZy4oVw.png" group-title="Brazil",BR: TELECINE PREMIUM
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE PREMIUM" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2PncQnjvX0UIbf-mXiFDYhjZeyMvH3JEHsmfXc5U6ICSMphbl2Ysnz8buYSOZy4oVw.png" group-title="TELECINE",BR: TELECINE PREMIUM
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120755
-#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE TOUCH" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78T56-tVc-7qhPa0XS5KkgEdS0Usx8z_ErvmhcY5bHhVqA.png" group-title="Brazil",BR: TELECINE TOUCH
+#EXTINF:-1 tvg-id="" tvg-name="BR: TELECINE TOUCH" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78T56-tVc-7qhPa0XS5KkgEdS0Usx8z_ErvmhcY5bHhVqA.png" group-title="TELECINE",BR: TELECINE TOUCH
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120756
 #EXTINF:-1 tvg-id="" tvg-name="BR: TerraViva" tvg-logo="" group-title="Brazil",BR: TerraViva
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120757
@@ -375,31 +375,31 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120763
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120764
 #EXTINF:-1 tvg-id="" tvg-name="BR: Tru TV" tvg-logo="" group-title="Brazil",BR: Tru TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120765
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Aparecida" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypqP8Vhec4La9s2QeaJ5CTAf9kieOZpAsrPLuWW_MckEQ.png" group-title="Brazil",BR: TV Aparecida
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Aparecida" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypqP8Vhec4La9s2QeaJ5CTAf9kieOZpAsrPLuWW_MckEQ.png" group-title="Religioso",BR: TV Aparecida
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120766
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV BRASIL" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2I7gRHQqlt2urJ_cA-odHswY_yMdT8AWvzFJRhDVaA0azI-n9hlv9PrXVtOgjV3Trw.png" group-title="Brazil",BR: TV BRASIL
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV BRASIL" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2I7gRHQqlt2urJ_cA-odHswY_yMdT8AWvzFJRhDVaA0azI-n9hlv9PrXVtOgjV3Trw.png" group-title="Aberto",BR: TV BRASIL
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120767
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Carioca" tvg-logo="" group-title="Brazil",BR: TV Carioca
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Carioca" tvg-logo="" group-title="Aberto",BR: TV Carioca
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120768
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Cultura PA" tvg-logo="" group-title="Brazil",BR: TV Cultura PA
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Cultura PA" tvg-logo="" group-title="Aberto",BR: TV Cultura PA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120769
 #EXTINF:-1 tvg-id="" tvg-name="BR: TV CÃMARA" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78Qrnik4JKed3RNU4H-J59O_aKpXkwaAODla5bBvSZiTzQ.png" group-title="Brazil",BR: TV CÃMARA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120770
 #EXTINF:-1 tvg-id="" tvg-name="BR: TV Destak" tvg-logo="" group-title="Brazil",BR: TV Destak
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120771
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Educativa de Porto Alegre" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypIyPlL_KuVudCUr0d1k--F6osKQlEIAqqG1loh9lq4zg.png" group-title="Brazil",BR: TV Educativa de Porto Alegre
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Educativa de Porto Alegre" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypIyPlL_KuVudCUr0d1k--F6osKQlEIAqqG1loh9lq4zg.png" group-title="Aberto",BR: TV Educativa de Porto Alegre
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120772
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV EVANGELIZAR" tvg-logo="" group-title="Brazil",BR: TV EVANGELIZAR
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV EVANGELIZAR" tvg-logo="" group-title="Religioso",BR: TV EVANGELIZAR
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120773
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Gazeta" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypWBnt3FwtImSNQA-Ma56pSpdJAB7Bw8DGpJ-H_GJ4SWQ.png" group-title="Brazil",BR: TV Gazeta
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Gazeta" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3ypWBnt3FwtImSNQA-Ma56pSpdJAB7Bw8DGpJ-H_GJ4SWQ.png" group-title="Aberto",BR: TV Gazeta
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120774
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Maná Moçambique" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrEimqXNFh4uAtF7os6O7Cw31g18TDkxnI-kLXh99hBow.png" group-title="Brazil",BR: TV Maná Moçambique
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Maná Moçambique" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2CQmSialG6ZFMmnpVE7A3yrEimqXNFh4uAtF7os6O7Cw31g18TDkxnI-kLXh99hBow.png" group-title="Religioso",BR: TV Maná Moçambique
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120775
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV PAI ETERNO" tvg-logo="" group-title="Brazil",BR: TV PAI ETERNO
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV PAI ETERNO" tvg-logo="" group-title="Religioso",BR: TV PAI ETERNO
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120776
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV PARANA TURISMO" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78S83nCarzw6U6n4HR_wLtghCrl5y6mGJHzy5q1gGvws1g.png" group-title="Brazil",BR: TV PARANA TURISMO
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV PARANA TURISMO" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78S83nCarzw6U6n4HR_wLtghCrl5y6mGJHzy5q1gGvws1g.png" group-title="Aberto",BR: TV PARANA TURISMO
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120777
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV Ra Tim Bum" tvg-logo="" group-title="Brazil",BR: TV Ra Tim Bum
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV Ra Tim Bum" tvg-logo="" group-title="Aberto",BR: TV Ra Tim Bum
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120778
 #EXTINF:-1 tvg-id="" tvg-name="BR: TV SOL COMUNIDADE" tvg-logo="" group-title="Brazil",BR: TV SOL COMUNIDADE
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120779
@@ -429,7 +429,7 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120790
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120791
 #EXTINF:-1 tvg-id="" tvg-name="BR: Fonte TV" tvg-logo="" group-title="Brazil",BR: Fonte TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120792
-#EXTINF:-1 tvg-id="" tvg-name="BR: Kuriakos Kids" tvg-logo="" group-title="Brazil",BR: Kuriakos Kids
+#EXTINF:-1 tvg-id="" tvg-name="BR: Kuriakos Kids" tvg-logo="" group-title="Infantil",BR: Kuriakos Kids
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120793
 #EXTINF:-1 tvg-id="" tvg-name="BR: NDTV Criciuma" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78ReiE4KhOFIZZGcCGM34k11gsmFhOVocnnKsJzczXrHsQ.png" group-title="Brazil",BR: NDTV Criciuma
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120794
@@ -441,13 +441,13 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120796
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120797
 #EXTINF:-1 tvg-id="" tvg-name="BR: Tastemade" tvg-logo="" group-title="Brazil",BR: Tastemade
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120798
-#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="Brazil",BR: Baby TV
+#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="Infantil",BR: Baby TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120799
-#EXTINF:-1 tvg-id="" tvg-name="BR: Band" tvg-logo="" group-title="Brazil",BR: Band
+#EXTINF:-1 tvg-id="" tvg-name="BR: Band" tvg-logo="" group-title="Aberto",BR: Band
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120800
-#EXTINF:-1 tvg-id="" tvg-name="BR: Band Campinas" tvg-logo="" group-title="Brazil",BR: Band Campinas
+#EXTINF:-1 tvg-id="" tvg-name="BR: Band Campinas" tvg-logo="" group-title="Aberto",BR: Band Campinas
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120801
-#EXTINF:-1 tvg-id="" tvg-name="BR: CURTA" tvg-logo="" group-title="Brazil",BR: CURTA
+#EXTINF:-1 tvg-id="" tvg-name="BR: CURTA" tvg-logo="" group-title="Aberto",BR: CURTA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120802
 #EXTINF:-1 tvg-id="" tvg-name="BR: Canal Sony" tvg-logo="" group-title="Brazil",BR: Canal Sony
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120803
@@ -459,7 +459,7 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120805
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120806
 #EXTINF:-1 tvg-id="" tvg-name="BR: DISCOVERY H&H" tvg-logo="" group-title="Brazil",BR: DISCOVERY H&H
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120807
-#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY JUNIOR" tvg-logo="" group-title="Brazil",BR: DISNEY JUNIOR
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY JUNIOR" tvg-logo="" group-title="Infantil",BR: DISNEY JUNIOR
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120808
 #EXTINF:-1 tvg-id="" tvg-name="BR: Discovery H&H" tvg-logo="" group-title="Brazil",BR: Discovery H&H
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120809
@@ -467,11 +467,11 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120809
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120810
 #EXTINF:-1 tvg-id="" tvg-name="BR: FOX LIFE" tvg-logo="" group-title="Brazil",BR: FOX LIFE
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120811
-#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO RIO" tvg-logo="" group-title="Brazil",BR: GLOBO RIO
+#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO RIO" tvg-logo="" group-title="Aberto",BR: GLOBO RIO
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120812
-#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO SP - NBR" tvg-logo="" group-title="Brazil",BR: GLOBO SP - NBR
+#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO SP - NBR" tvg-logo="" group-title="Aberto",BR: GLOBO SP - NBR
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120813
-#EXTINF:-1 tvg-id="" tvg-name="BR: Globo Amazonas" tvg-logo="" group-title="Brazil",BR: Globo Amazonas
+#EXTINF:-1 tvg-id="" tvg-name="BR: Globo Amazonas" tvg-logo="" group-title="Aberto",BR: Globo Amazonas
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120814
 #EXTINF:-1 tvg-id="" tvg-name="BR: Globo CENTRO AMERICA CUIABA" tvg-logo="" group-title="Brazil",BR: Globo CENTRO AMERICA CUIABA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120815
@@ -503,9 +503,9 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120827
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120828
 #EXTINF:-1 tvg-id="" tvg-name="BR: Premiere Clubes Extra" tvg-logo="" group-title="Esporte",BR: Premiere Clubes Extra
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120829
-#EXTINF:-1 tvg-id="" tvg-name="BR: Record Nordeste" tvg-logo="" group-title="Brazil",BR: Record Nordeste
+#EXTINF:-1 tvg-id="" tvg-name="BR: Record Nordeste" tvg-logo="" group-title="Aberto",BR: Record Nordeste
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120830
-#EXTINF:-1 tvg-id="" tvg-name="BR: SBT SP" tvg-logo="" group-title="Brazil",BR: SBT SP
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT SP" tvg-logo="" group-title="Aberto",BR: SBT SP
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120831
 #EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV" tvg-logo="" group-title="Esporte",BR: SPORTV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120832
@@ -519,13 +519,13 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120835
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120836
 #EXTINF:-1 tvg-id="" tvg-name="BR: TNT SÃ©ries" tvg-logo="" group-title="Brazil",BR: TNT SÃ©ries
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120837
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV CULTURA" tvg-logo="" group-title="Brazil",BR: TV CULTURA
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV CULTURA" tvg-logo="" group-title="Aberto",BR: TV CULTURA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120838
-#EXTINF:-1 tvg-id="" tvg-name="BR: TV ESCOLA" tvg-logo="" group-title="Brazil",BR: TV ESCOLA
+#EXTINF:-1 tvg-id="" tvg-name="BR: TV ESCOLA" tvg-logo="" group-title="Aberto",BR: TV ESCOLA
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120839
 #EXTINF:-1 tvg-id="" tvg-name="BR: TVCINE ACTION" tvg-logo="" group-title="Brazil",BR: TVCINE ACTION
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120840
-#EXTINF:-1 tvg-id="" tvg-name="BR: Telecine Cult" tvg-logo="" group-title="Brazil",BR: Telecine Cult
+#EXTINF:-1 tvg-id="" tvg-name="BR: Telecine Cult" tvg-logo="" group-title="Telecine",BR: Telecine Cult
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120841
 #EXTINF:-1 tvg-id="" tvg-name="BR: UNIVERSAL TV" tvg-logo="" group-title="Brazil",BR: UNIVERSAL TV
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120842
@@ -533,4 +533,5 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120842
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120843
 #EXTINF:-1 tvg-id="" tvg-name="BR: WARNER" tvg-logo="" group-title="Brazil",BR: WARNER
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120844
+
 
