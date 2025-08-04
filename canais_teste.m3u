@@ -31,11 +31,11 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120591
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120592
 #EXTINF:-1 tvg-id="" tvg-name="BR: TCM 10" tvg-logo="" group-title="Brazil",BR: TCM 10
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120593
-#EXTINF:-1 tvg-id="" tvg-name="BR: CARTOON NETWORK" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RuauIRM6wYA9-rCL3QO-lbgndnksb_akTsRMSuwQPSzw.png" group-title="Brazil",BR: CARTOON NETWORK
+#EXTINF:-1 tvg-id="" tvg-name="BR: CARTOON NETWORK" tvg-logo="http://landiptv.vip:2095/images/HM3xx55KZnCUdlPuNC1k2Dx3ler5TYyYwLOJu-YD78RuauIRM6wYA9-rCL3QO-lbgndnksb_akTsRMSuwQPSzw.png" group-title="Infantil",BR: CARTOON NETWORK
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120594
 #EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="Infantil",BR: Cartoonito
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120595
-#EXTINF:-1 tvg-id="" tvg-name="BR: CBN Español" tvg-logo="" group-title="Infantil",BR: CBN Español
+#EXTINF:-1 tvg-id="" tvg-name="BR: CBN Español" tvg-logo="" group-title="Notícias",BR: CBN Español
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120596
 #EXTINF:-1 tvg-id="" tvg-name="BR: CINEMAX" tvg-logo="http://fanc.tmsimg.com/assets/s75583_ll_h3_ab.png" group-title="Brazil",BR: CINEMAX
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120597
@@ -533,5 +533,6 @@ http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120842
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120843
 #EXTINF:-1 tvg-id="" tvg-name="BR: WARNER" tvg-logo="" group-title="Brazil",BR: WARNER
 http://lunar.pm:8080/ALVIN/9gJbtWskzsJS/120844
+
 
 
