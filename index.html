@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Helpdesk & Estoque — Admin/Técnico</title>
+  <style>
+    :root{
+      --bg:#0f172a;           /* slate-900 */
+      --panel:#111827;        /* gray-900 */
+      --panel-2:#0b1221;      /* deeper */
+      --muted:#94a3b8;        /* slate-400 */
+      --text:#e5e7eb;         /* gray-200 */
+      --brand:#22c55e;        /* green-500 */
+      --brand-2:#16a34a;      /* green-600 */
+      --warn:#f59e0b;         /* amber-500 */
+      --danger:#ef4444;       /* red-500 */
+      --ok:#10b981;           /* emerald-500 */
+      --border:#1f2937;       /* gray-800 */
+      --chip:#0b213b;
+      --chip-text:#7dd3fc;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:linear-gradient(180deg, var(--bg), #0a0f1f 60%);
+      color:var(--text); font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial;
+      min-height:100vh; display:flex; flex-direction:column;
+    }
+    header{
+      position:sticky; top:0; z-index:50;
+      background:rgba(10,15,31,.7); backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--border);
+    }
+    .topbar{max-width:1200px; margin:auto; padding:14px 20px; display:flex; align-items:center; gap:16px}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:.4px}
+    .brand .logo{width:36px; height:36px; border-radius:12px; background:conic-gradient(from 0deg at 50% 50%, var(--brand), #06b6d4, #6366f1, var(--brand)); box-shadow:0 0 0 2px #0b1020 inset}
+    .brand b{font-size:18px}
+    .spacer{flex:1}
+    .userbox{display:flex; align-items:center; gap:10px; color:var(--muted)}
+    .userbox .role{padding:2px 8px; border-radius:999px; background:#10233e; border:1px solid #1c2b4a; color:#93c5fd}
+    .btn{border:1px solid var(--border); background:#0d1429; color:var(--text); padding:9px 14px; border-radius:12px; cursor:pointer; transition:.2s; box-shadow:var(--shadow)}
+    .btn:hover{transform:translateY(-1px); border-color:#243449}
+    .btn.brand{background:linear-gradient(180deg, var(--brand), var(--brand-2)); color:#04140a; font-weight:700;}
+    .btn.ghost{background:#0d1429}
+    .btn.small{padding:6px 10px; border-radius:10px}
+    main{max-width:1200px; margin:24px auto; width:100%; display:grid; grid-template-columns: 240px 1fr; gap:20px; padding:0 20px}
+    nav{
+      position:sticky; top:70px; align-self:start; background:rgba(13,20,41,.6); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow);
+    }
+    nav ul{list-style:none; margin:0; padding:10px}
+    nav li{margin:4px 0}
+    nav button{width:100%; text-align:left}
+    nav .group{margin:8px 0 2px; padding:6px 10px; color:#8aa0b7; font-weight:700; font-size:12px; opacity:.9}
+    .content{background:rgba(13,20,41,.6); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px}
+
+    .grid{display:grid; gap:12px}
+    .grid.cols-4{grid-template-columns: repeat(4, 1fr)}
+    .grid.cols-3{grid-template-columns: repeat(3, 1fr)}
+    .grid.cols-2{grid-template-columns: repeat(2, 1fr)}
+    @media(max-width:1000px){ main{grid-template-columns:1fr} .grid.cols-4{grid-template-columns: repeat(2,1fr)} }
+    @media(max-width:640px){ .grid.cols-4,.grid.cols-3,.grid.cols-2{grid-template-columns:1fr} }
+
+    .card{background:linear-gradient(180deg, #0b1224, #0a0f1f); border:1px solid var(--border); border-radius:14px; padding:14px; box-shadow:var(--shadow)}
+    .card h3{margin:0 0 6px}
+    .kpi{display:flex; align-items:center; justify-content:space-between}
+    .kpi .chip{font-size:12px; padding:4px 8px; border:1px solid #1b2a46; background:var(--chip); color:var(--chip-text); border-radius:999px}
+
+    .toolbar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:4px 0 12px}
+    input, select, textarea{background:#0a1226; border:1px solid #1c2540; color:var(--text); padding:10px 12px; border-radius:10px; outline:none; width:100%}
+    input::placeholder, textarea::placeholder{color:#6b7280}
+    table{width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border:1px solid var(--border); border-radius:12px}
+    thead th{position:sticky; top:0; background:#0d1630; text-align:left; font-size:12px; letter-spacing:.4px; color:#9fb0c7; padding:10px; border-bottom:1px solid var(--border)}
+    tbody td{padding:10px; border-bottom:1px solid #111827}
+    tbody tr:hover{background:#0b142b}
+    .status{padding:4px 10px; border-radius:999px; font-size:12px; border:1px solid var(--border); display:inline-block}
+    .status.open{background:#1a1f38; color:#93c5fd}
+    .status.progress{background:#122a22; color:#86efac}
+    .status.closed{background:#2a1717; color:#fca5a5}
+    .priority{padding:2px 8px; border:1px solid var(--border); border-radius:8px; font-size:12px}
+    .priority.high{background:#2a1418; color:#fda4af}
+    .priority.urgent{background:#2a1010; color:#fca5a5; border-color:#4b1d1d}
+
+    .hidden{display:none !important}
+
+    /* Modal */
+    .modal{position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; align-items:center; justify-content:center; padding:20px}
+    .modal .box{width:min(720px, 96vw); background:#0a0f1f; border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); padding:16px}
+    .modal .head{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px}
+    .row{display:grid; gap:10px; grid-template-columns: repeat(2,1fr)}
+    .row-3{grid-template-columns: repeat(3,1fr)}
+    .row-1{grid-template-columns: 1fr}
+
+    .muted{color:var(--muted)}
+    .danger{color:var(--danger)}
+    .ok{color:var(--ok)}
+    .warn{color:var(--warn)}
+    footer{max-width:1200px; margin:30px auto 40px; padding:0 20px; color:#94a3b8}
+    .mini{font-size:12px; opacity:.8}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo"></div>
+        <b>Helpdesk & Estoque</b>
+        <span class="muted">• Gerenciamento de Chamados</span>
+      </div>
+      <div class="spacer"></div>
+      <div class="userbox">
+        <span id="userName">Visitante</span>
+        <span id="userRole" class="role">—</span>
+        <button class="btn small ghost" id="btnLogout">Sair</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav>
+      <div class="group">Navegação</div>
+      <ul>
+        <li><button class="btn ghost" data-section="dashboard">🏠 Dashboard</button></li>
+        <li><button class="btn ghost" data-section="tickets">🎫 Chamados</button></li>
+        <li><button class="btn ghost" data-section="clients">👥 Clientes</button></li>
+        <li><button class="btn ghost" data-section="inventory">📦 Estoque</button></li>
+        <li class="admin-only"><button class="btn ghost" data-section="users">👤 Usuários</button></li>
+        <li class="admin-only"><button class="btn ghost" data-section="settings">⚙️ Configurações</button></li>
+      </ul>
+    </nav>
+
+    <section class="content" id="dashboard">
+      <h2>📊 Visão Geral</h2>
+      <div class="grid cols-4" id="kpis">
+        <div class="card kpi"><div><h3>Abertos</h3><div class="muted">Chamados em aberto</div></div><div class="chip" id="kpiOpen">0</div></div>
+        <div class="card kpi"><div><h3>Em Andamento</h3><div class="muted">Sendo atendidos</div></div><div class="chip" id="kpiProgress">0</div></div>
+        <div class="card kpi"><div><h3>Fechados</h3><div class="muted">Últimos 30 dias</div></div><div class="chip" id="kpiClosed">0</div></div>
+        <div class="card kpi"><div><h3>Baixo Estoque</h3><div class="muted">Abaixo do mínimo</div></div><div class="chip warn" id="kpiLow">0</div></div>
+      </div>
+
+      <div class="grid cols-2" style="margin-top:12px">
+        <div class="card">
+          <h3>Últimos Chamados</h3>
+          <div class="toolbar">
+            <input id="searchDashTickets" placeholder="Buscar por título/cliente..." />
+          </div>
+          <div style="overflow:auto; max-height:300px">
+            <table>
+              <thead><tr><th>ID</th><th>Título</th><th>Cliente</th><th>Status</th><th>Prioridade</th><th>Atualizado</th></tr></thead>
+              <tbody id="dashTickets"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Itens com Baixo Estoque</h3>
+          <div style="overflow:auto; max-height:300px">
+            <table>
+              <thead><tr><th>SKU</th><th>Item</th><th>Qtd</th><th>Mín</th><th>Local</th></tr></thead>
+              <tbody id="dashLowStock"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content hidden" id="tickets">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>🎫 Chamados</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewTicket">+ Novo Chamado</button>
+          <button class="btn ghost" id="btnExportTickets">Exportar JSON</button>
+          <label class="btn ghost" for="importTickets">Importar JSON</label>
+          <input type="file" id="importTickets" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchTickets" placeholder="Buscar chamado..." />
+        <select id="filterStatus">
+          <option value="">Todos status</option>
+          <option value="open">Aberto</option>
+          <option value="progress">Em andamento</option>
+          <option value="closed">Fechado</option>
+        </select>
+        <select id="filterPriority">
+          <option value="">Todas prioridades</option>
+          <option>Baixa</option>
+          <option>Média</option>
+          <option>Alta</option>
+          <option>Urgente</option>
+        </select>
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>ID</th><th>Título</th><th>Cliente</th><th>Categoria</th><th>Status</th><th>Prioridade</th><th>Atribuído</th><th>Atualizado</th><th>Ações</th></tr></thead>
+          <tbody id="ticketRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden" id="clients">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>👥 Clientes</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewClient">+ Novo Cliente</button>
+          <button class="btn ghost" id="btnExportClients">Exportar JSON</button>
+          <label class="btn ghost" for="importClients">Importar JSON</label>
+          <input type="file" id="importClients" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchClients" placeholder="Buscar cliente por nome, e-mail ou telefone..." />
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>ID</th><th>Nome</th><th>E-mail</th><th>Telefone</th><th>Empresa/Local</th><th>Ações</th></tr></thead>
+          <tbody id="clientRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden" id="inventory">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>📦 Estoque</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewItem">+ Novo Item</button>
+          <button class="btn ghost" id="btnExportInventory">Exportar JSON</button>
+          <label class="btn ghost" for="importInventory">Importar JSON</label>
+          <input type="file" id="importInventory" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchInventory" placeholder="Buscar item por nome ou SKU..." />
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>SKU</th><th>Item</th><th>Categoria</th><th>Local</th><th>Qtd</th><th>Mín</th><th>Fornecedor</th><th>Ações</th></tr></thead>
+        <tbody id="inventoryRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden admin-only" id="users">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>👤 Usuários / Técnicos</h2>
+        <button class="btn brand" id="btnNewUser">+ Novo Técnico</button>
+      </div>
+      <p class="muted">Apenas administradores podem criar/editar técnicos.</p>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>Login</th><th>Nome</th><th>Perfil</th><th>Ações</th></tr></thead>
+          <tbody id="userRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden admin-only" id="settings">
+      <h2>⚙️ Configurações</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Preferências</h3>
+          <div class="row row-1">
+            <label>Título do sistema <input id="cfgTitle" placeholder="Helpdesk & Estoque" /></label>
+            <label>Nome da empresa <input id="cfgCompany" placeholder="Minha Empresa Ltda" /></label>
+            <button class="btn brand" id="btnSaveSettings">Salvar</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Backup</h3>
+          <div class="row row-1">
+            <button class="btn ghost" id="btnBackupAll">Baixar backup (.json)</button>
+            <label class="btn ghost" for="restoreAll">Restaurar backup</label>
+            <input type="file" id="restoreAll" accept="application/json" class="hidden" />
+          </div>
+          <p class="mini muted">Dica: este projeto é somente front‑end e usa <b>localStorage</b> do navegador. Para uso em produção, conecte a um banco de dados e uma API segura.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="mini">Feito com ❤️. Versão somente Front‑End (HTML/CSS/JS). Credenciais padrão: <b>admin</b>: login <code>admin</code> / senha <code>admin</code>; <b>técnico</b>: login <code>tecnico</code> / senha <code>123</code>.</div>
+  </footer>
+
+  <!-- Login Overlay -->
+  <div class="modal" id="loginModal" style="display:flex; background:linear-gradient(180deg, rgba(2,6,23,.95), rgba(2,6,23,.95))">
+    <div class="box" style="max-width:420px">
+      <div class="head"><h3>Entrar</h3><span class="muted">Helpdesk & Estoque</span></div>
+      <div class="row row-1">
+        <label>Login <input id="loginUser" placeholder="Credenciais" autocomplete="username" /></label>
+        <label>Senha <input id="loginPass" type="password" placeholder="••••••" autocomplete="current-password"/></label>
+        <button class="btn brand" id="btnDoLogin">Entrar</button>
+        <p class="mini muted">Apenas para demonstração. Para produção, substitua por autenticação real no servidor.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Genérico -->
+  <div class="modal" id="formModal">
+    <div class="box">
+      <div class="head">
+        <h3 id="formTitle">Formulário</h3>
+        <button class="btn small ghost" id="btnCloseModal">Fechar</button>
+      </div>
+      <form id="dynamicForm" class="grid"></form>
+    </div>
+  </div>
+
+  <script>
+  // ======= Utilidades de Armazenamento =======
+  const DB = {
+    load(){
+      const d = JSON.parse(localStorage.getItem('hd_db')||'null');
+      if(d) return d;
+      // Seed inicial
+      const now = Date.now();
+      const db = {
+        settings: { title: 'Helpdesk & Estoque', company: 'Minha Empresa' },
+        users: [
+          { id: 1, username: 'admin', name: 'Administrador', role: 'admin', password: 'admin' },
+          { id: 2, username: 'tecnico', name: 'Técnico Padrão', role: 'tech', password: '123' },
+        ],
+        clients: [
+          { id: 1, name: 'Beatriz Lima', email: 'bea@empresa.com', phone: '(11) 90000-0001', company: 'Empresa A', notes: '' },
+          { id: 2, name: 'Carlos Souza', email: 'carlos@empresa.com', phone: '(11) 90000-0002', company: 'Empresa B', notes: '' }
+        ],
+        inventory: [
+          { id: 1, sku: 'SSD-240', name: 'SSD 240GB', category: 'Armazenamento', location: 'Prateleira A', qty: 2, minQty: 3, vendor: 'KingFast' },
+          { id: 2, sku: 'RAM-D4-8', name: 'Memória DDR4 8GB', category: 'Memória', location: 'Prateleira B', qty: 12, minQty: 5, vendor: 'Crucial' },
+          { id: 3, sku: 'TN-3472', name: 'Toner TN-3472', category: 'Impressão', location: 'Prateleira C', qty: 1, minQty: 2, vendor: 'Brother' }
+        ],
+        tickets: [
+          { id: 1, title:'Computador não liga', description:'PC do financeiro não liga desde ontem.', clientId:1, category:'Hardware', status:'open', priority:'Alta', assigned:'tecnico', createdAt: now-86400000, updatedAt: now-3600000 },
+          { id: 2, title:'Impressora com papel atolado', description:'Atolamento recorrente na impressora', clientId:2, category:'Impressora', status:'progress', priority:'Média', assigned:'tecnico', createdAt: now-172800000, updatedAt: now-7200000 },
+          { id: 3, title:'Erro no sistema ERP', description:'Mensagem de erro ao emitir NF-e', clientId:1, category:'Software', status:'closed', priority:'Urgente', assigned:'tecnico', createdAt: now-259200000, updatedAt: now-10800000 }
+        ],
+        seq: { users:3, clients:3, inventory:3, tickets:3 }
+      };
+      localStorage.setItem('hd_db', JSON.stringify(db));
+      return db;
+    },
+    save(db){ localStorage.setItem('hd_db', JSON.stringify(db)); },
+  };
+
+  let DBSTATE = DB.load();
+  const q = (sel, root=document) => root.querySelector(sel);
+  const qa = (sel, root=document) => Array.from(root.querySelectorAll(sel));
+  const fmtDate = ts => new Date(ts).toLocaleString();
+
+  // ======= Autenticação =======
+  const SESSION = {
+    user: null,
+    login(username, password){
+      const u = DBSTATE.users.find(u=>u.username===username && u.password===password);
+      if(!u) return false;
+      this.user = { id:u.id, username:u.username, role:u.role, name:u.name };
+      sessionStorage.setItem('hd_session', JSON.stringify(this.user));
+      return true;
+    },
+    load(){ this.user = JSON.parse(sessionStorage.getItem('hd_session')||'null'); },
+    logout(){ sessionStorage.removeItem('hd_session'); this.user=null; }
+  };
+  SESSION.load();
+
+  function updateHeader(){
+    q('#userName').textContent = SESSION.user? SESSION.user.name : 'Visitante';
+    q('#userRole').textContent = SESSION.user? (SESSION.user.role==='admin'?'Administrador':'Técnico') : '—';
+  }
+
+  function gateByRole(){
+    const isAdmin = SESSION.user && SESSION.user.role==='admin';
+    qa('.admin-only').forEach(el=> el.classList.toggle('hidden', !isAdmin));
+  }
+
+  // ======= Navegação =======
+  qa('nav [data-section]').forEach(btn=>{
+    btn.addEventListener('click', ()=> showSection(btn.dataset.section));
+  });
+  function showSection(id){
+    qa('main .content').forEach(s=> s.classList.toggle('hidden', s.id!==id));
+  }
+
+  // ======= Dashboard =======
+  function refreshKPIs(){
+    const open = DBSTATE.tickets.filter(t=>t.status==='open').length;
+    const prog = DBSTATE.tickets.filter(t=>t.status==='progress').length;
+    const closed = DBSTATE.tickets.filter(t=>t.status==='closed' && Date.now()-t.updatedAt < 30*864e5).length;
+    const low = DBSTATE.inventory.filter(i=>i.qty<=i.minQty).length;
+    q('#kpiOpen').textContent=open; q('#kpiProgress').textContent=prog; q('#kpiClosed').textContent=closed; q('#kpiLow').textContent=low;
+  }
+  function refreshDashTables(){
+    const input = q('#searchDashTickets').value?.toLowerCase()||'';
+    const clientsById = Object.fromEntries(DBSTATE.clients.map(c=>[c.id,c]));
+    const rows = DBSTATE.tickets
+      .filter(t=> t.title.toLowerCase().includes(input) || (clientsById[t.clientId]?.name||'').toLowerCase().includes(input))
+      .sort((a,b)=> b.updatedAt - a.updatedAt)
+      .slice(0,12)
+      .map(t=>`<tr><td>#${t.id}</td><td>${t.title}</td><td>${clientsById[t.clientId]?.name||'-'}</td><td><span class="status ${t.status}">${labelStatus(t.status)}</span></td><td><span class="priority ${prioClass(t.priority)}">${t.priority}</span></td><td>${fmtDate(t.updatedAt)}</td></tr>`)
+      .join('');
+    q('#dashTickets').innerHTML = rows || `<tr><td colspan="6" class="muted">Nenhum chamado</td></tr>`;
+
+    const lows = DBSTATE.inventory.filter(i=>i.qty<=i.minQty)
+      .sort((a,b)=> (a.qty-a.minQty)-(b.qty-b.minQty))
+      .map(i=>`<tr><td>${i.sku}</td><td>${i.name}</td><td>${i.qty}</td><td>${i.minQty}</td><td>${i.location||'-'}</td></tr>`)
+      .join('');
+    q('#dashLowStock').innerHTML = lows || `<tr><td colspan="5" class="muted">Sem alertas</td></tr>`;
+  }
+  q('#searchDashTickets').addEventListener('input', refreshDashTables);
+
+  // ======= Chamados =======
+  function labelStatus(s){ return s==='open'?'Aberto': s==='progress'?'Em andamento':'Fechado'; }
+  function prioClass(p){ return p?.toLowerCase()==='urgente'?'urgent': p?.toLowerCase()==='alta'?'high':''; }
+
+  function renderTicketRows(){
+    const txt = q('#searchTickets').value.toLowerCase();
+    const fs = q('#filterStatus').value;
+    const fp = q('#filterPriority').value;
+    const clientsById = Object.fromEntries(DBSTATE.clients.map(c=>[c.id,c]));
+    const rows = DBSTATE.tickets
+      .filter(t=> (!fs||t.status===fs) && (!fp||t.priority===fp) &&
+        (t.title.toLowerCase().includes(txt) || t.description.toLowerCase().includes(txt) || (clientsById[t.clientId]?.name||'').toLowerCase().includes(txt)))
+      .sort((a,b)=> b.updatedAt-a.updatedAt)
+      .map(t=>`
+        <tr>
+          <td>#${t.id}</td>
+          <td>${t.title}</td>
+          <td>${clientsById[t.clientId]?.name||'-'}</td>
+          <td>${t.category||'-'}</td>
+          <td><span class="status ${t.status}">${labelStatus(t.status)}</span></td>
+          <td><span class="priority ${prioClass(t.priority)}">${t.priority||'-'}</span></td>
+          <td>${t.assigned||'-'}</td>
+          <td>${fmtDate(t.updatedAt)}</td>
+          <td>
+            <button class="btn small ghost" onclick="editTicket(${t.id})">Editar</button>
+            ${SESSION.user?.role==='admin'? `<button class='btn small ghost' onclick='delTicket(${t.id})'>Excluir</button>`:''}
+          </td>
+        </tr>`)
+      .join('');
+    q('#ticketRows').innerHTML = rows || `<tr><td colspan="9" class="muted">Sem resultados</td></tr>`;
+  }
+  q('#searchTickets').addEventListener('input', renderTicketRows);
+  q('#filterStatus').addEventListener('change', renderTicketRows);
+  q('#filterPriority').addEventListener('change', renderTicketRows);
+
+  function openTicketForm(t){
+    showModal('Novo Chamado', form=>{
+      form.innerHTML = `
+        <div class='row'>
+          <label>Título <input name='title' required value="${t?.title||''}"></label>
+          <label>Cliente <select name='clientId' required>${DBSTATE.clients.map(c=>`<option value='${c.id}' ${t?.clientId==c.id?'selected':''}>${c.name}</option>`)}</select></label>
+        </div>
+        <div class='row'>
+          <label>Categoria <input name='category' value='${t?.category||''}' placeholder='Hardware, Software, Impressora...'></label>
+          <label>Prioridade <select name='priority'>${['Baixa','Média','Alta','Urgente'].map(p=>`<option ${t?.priority===p?'selected':''}>${p}</option>`)}</select></label>
+        </div>
+        <div class='row'>
+          <label>Status <select name='status'>${['open','progress','closed'].map(s=>`<option value='${s}' ${t?.status===s?'selected':''}>${labelStatus(s)}</option>`)}</select></label>
+          <label>Atribuído a <select name='assigned'>${DBSTATE.users.filter(u=>u.role!=='admin').map(u=>`<option ${t?.assigned===u.username?'selected':''}>${u.username}</option>`)}</select></label>
+        </div>
+        <div class='row row-1'>
+          <label>Descrição <textarea name='description' rows='4' placeholder='Detalhes do problema...'>${t?.description||''}</textarea></label>
+        </div>
+        <div class='row row-1'>
+          <button class='btn brand'>Salvar</button>
+        </div>`;
+    }, (data)=>{
+      const now = Date.now();
+      if(t){ // update
+        Object.assign(t, { ...data, clientId:+data.clientId, updatedAt: now });
+      } else {
+        const id = ++DBSTATE.seq.tickets;
+        DBSTATE.tickets.push({ id, createdAt: now, updatedAt: now, ...data, clientId:+data.clientId });
+      }
+      DB.save(DBSTATE); refreshAll(); closeModal();
+    });
+  }
+  function editTicket(id){ const t = DBSTATE.tickets.find(x=>x.id===id); openTicketForm(t); }
+  function delTicket(id){ if(confirm('Excluir chamado #' + id + '?')){ DBSTATE.tickets = DBSTATE.tickets.filter(t=>t.id!==id); DB.save(DBSTATE); refreshAll(); } }
+
+  // Export/Import Tickets
+  q('#btnExportTickets').addEventListener('click', ()=> downloadJSON('tickets.json', DBSTATE.tickets));
+  q('#importTickets').addEventListener('change', e=> importJSON(e, (arr)=>{ if(Array.isArray(arr)){ DBSTATE.tickets=arr; DB.save(DBSTATE); refreshAll(); }}));
+
+  // ======= Clientes =======
+  function renderClientRows(){
+    const txt = q('#searchClients').value.toLowerCase();
+    const rows = DBSTATE.clients
+      .filter(c=> (c.name+c.email+c.phone).toLowerCase().includes(txt))
+      .sort((a,b)=> a.name.localeCompare(b.name))
+      .map(c=>`
+        <tr>
+          <td>#${c.id}</td>
+          <td>${c.name}</td>
+          <td>${c.email||'-'}</td>
+          <td>${c.phone||'-'}</td>
+          <td>${c.company||'-'}</td>
+          <td>
+            <button class="btn small ghost" onclick="editClient(${c.id})">Editar</button>
+            ${SESSION.user?.role==='admin'? `<button class='btn small ghost' onclick='delClient(${c.id})'>Excluir</button>`:''}
+          </td>
+        </tr>`)
+      .join('');
+    q('#clientRows').innerHTML = rows || `<tr><td colspan='6' class='muted'>Sem clientes</td></tr>`;
+  }
+  q('#searchClients').addEventListener('input', renderClientRows);
+
+  function openClientForm(c){
+    showModal('Cliente', form=>{
+      form.innerHTML = `
+        <div class='row'>
+          <label>Nome <input name='name' required value='${c?.name||''}'></label>
+          <label>E-mail <input name='email' type='email' value='${c?.email||''}'></label>
+        </div>
+        <div class='row'>
+          <label>Telefone <input name='phone' value='${c?.phone||''}'></label>
+          <label>Empresa/Local <input name='company' value='${c?.company||''}'></label>
+        </div>
+        <div class='row row-1'>
+          <label>Observações <textarea name='notes' rows='3'>${c?.notes||''}</textarea></label>
+        </div>
+        <div class='row row-1'><button class='btn brand'>Salvar</button></div>`;
+    }, data=>{
+      if(c) Object.assign(c, data); else { const id=++DBSTATE.seq.clients; DBSTATE.clients.push({id, ...data}); }
+      DB.save(DBSTATE); refreshAll(); closeModal();
+    });
+  }
+  function editClient(id){ const c=DBSTATE.clients.find(x=>x.id===id); openClientForm(c); }
+  function delClient(id){ if(confirm('Excluir cliente #' + id + '?')){ DBSTATE.clients = DBSTATE.clients.filter(c=>c.id!==id); DB.save(DBSTATE); refreshAll(); } }
+
+  q('#btnExportClients').addEventListener('click', ()=> downloadJSON('clientes.json', DBSTATE.clients));
+  q('#importClients').addEventListener('change', e=> importJSON(e, arr=>{ if(Array.isArray(arr)){ DBSTATE.clients=arr; DB.save(DBSTATE); refreshAll(); }}));
+
+  // ======= Estoque =======
+  function renderInventoryRows(){
+    const txt = q('#searchInventory').value.toLowerCase();
+    const rows = DBSTATE.inventory
+      .filter(i=> (i.name+i.sku).toLowerCase().includes(txt))
+      .sort((a,b)=> a.name.localeCompare(b.name))
+      .map(i=>`
+        <tr>
+          <td>${i.sku}</td>
+          <td>${i.name}</td>
+          <td>${i.category||'-'}</td>
+          <td>${i.location||'-'}</td>
+          <td>${i.qty}</td>
+          <td>${i.minQty||0}</td>
+          <td>${i.vendor||'-'}</td>
+          <td>
+            <button class='btn small ghost' onclick='adjustQty(${i.id},1)'>+1</button>
+            <button class='btn small ghost' onclick='adjustQty(${i.id},-1)'>-1</button>
+            <button class='btn small ghost' onclick='editItem(${i.id})'>Editar</button>
+            ${SESSION.user?.role==='admin'? `<button class='btn small ghost' onclick='delItem(${i.id})'>Excluir</button>`:''}
+          </td>
+        </tr>`)
+      .join('');
+    q('#inventoryRows').innerHTML = rows || `<tr><td colspan='8' class='muted'>Sem itens</td></tr>`;
+  }
+
+  function openItemForm(i){
+    showModal('Item de Estoque', form=>{
+      form.innerHTML = `
+        <div class='row'>
+          <label>SKU <input name='sku' required value='${i?.sku||''}'></label>
+          <label>Nome do Item <input name='name' required value='${i?.name||''}'></label>
+        </div>
+        <div class='row'>
+          <label>Categoria <input name='category' value='${i?.category||''}'></label>
+          <label>Local <input name='location' value='${i?.location||''}'></label>
+        </div>
+        <div class='row'>
+          <label>Quantidade <input name='qty' type='number' value='${i?.qty||0}'></label>
+          <label>Mínimo <input name='minQty' type='number' value='${i?.minQty||0}'></label>
+        </div>
+        <div class='row'>
+          <label>Fornecedor <input name='vendor' value='${i?.vendor||''}'></label>
+          <div></div>
+        </div>
+        <div class='row row-1'><button class='btn brand'>Salvar</button></div>`;
+    }, data=>{
+      data.qty = +data.qty||0; data.minQty=+data.minQty||0;
+      if(i) Object.assign(i, data); else { const id=++DBSTATE.seq.inventory; DBSTATE.inventory.push({id, ...data}); }
+      DB.save(DBSTATE); refreshAll(); closeModal();
+    });
+  }
+  function editItem(id){ const i=DBSTATE.inventory.find(x=>x.id===id); openItemForm(i); }
+  function delItem(id){ if(confirm('Excluir item?')){ DBSTATE.inventory = DBSTATE.inventory.filter(i=>i.id!==id); DB.save(DBSTATE); refreshAll(); } }
+  function adjustQty(id, delta){ const i=DBSTATE.inventory.find(x=>x.id===id); if(!i) return; i.qty=Math.max(0,(i.qty||0)+delta); DB.save(DBSTATE); refreshAll(); }
+
+  q('#btnExportInventory').addEventListener('click', ()=> downloadJSON('estoque.json', DBSTATE.inventory));
+  q('#importInventory').addEventListener('change', e=> importJSON(e, arr=>{ if(Array.isArray(arr)){ DBSTATE.inventory=arr; DB.save(DBSTATE); refreshAll(); }}));
+
+  // ======= Usuários (Admin) =======
+  function renderUserRows(){
+    const rows = DBSTATE.users
+      .map(u=> `<tr><td>${u.username}</td><td>${u.name}</td><td>${u.role==='admin'?'Administrador':'Técnico'}</td><td>${u.role==='admin'?'—':`<button class='btn small ghost' onclick='editUser(${u.id})'>Editar</button> <button class='btn small ghost' onclick='delUser(${u.id})'>Excluir</button>`}</td></tr>`)
+      .join('');
+    q('#userRows').innerHTML = rows || `<tr><td colspan='4' class='muted'>Sem usuários</td></tr>`;
+  }
+  function openUserForm(u){
+    showModal('Técnico', form=>{
+      form.innerHTML = `
+        <div class='row'>
+          <label>Login <input name='username' required value='${u?.username||''}'></label>
+          <label>Nome <input name='name' required value='${u?.name||''}'></label>
+        </div>
+        <div class='row'>
+          <label>Senha <input name='password' type='password' value='${u?.password||''}' placeholder='${u?'(manter se vazio)':''}'></label>
+          <label>Perfil <select name='role'><option value='tech' ${u?.role==='tech'?'selected':''}>Técnico</option><option value='admin' ${u?.role==='admin'?'selected':''}>Administrador</option></select></label>
+        </div>
+        <div class='row row-1'><button class='btn brand'>Salvar</button></div>`;
+    }, data=>{
+      if(u){
+        u.username=data.username; u.name=data.name; if(data.password) u.password=data.password; u.role=data.role;
+      } else {
+        const id=++DBSTATE.seq.users; DBSTATE.users.push({id, ...data});
+      }
+      DB.save(DBSTATE); refreshAll(); closeModal();
+    });
+  }
+  function editUser(id){ const u=DBSTATE.users.find(x=>x.id===id); openUserForm(u); }
+  function delUser(id){ if(confirm('Excluir usuário?')){ DBSTATE.users = DBSTATE.users.filter(u=>u.id!==id); DB.save(DBSTATE); refreshAll(); } }
+
+  // ======= Configurações (Admin) =======
+  function loadSettingsUI(){ q('#cfgTitle').value = DBSTATE.settings.title||''; q('#cfgCompany').value = DBSTATE.settings.company||''; }
+  q('#btnSaveSettings').addEventListener('click', ()=>{
+    DBSTATE.settings.title = q('#cfgTitle').value.trim()||'Helpdesk & Estoque';
+    DBSTATE.settings.company = q('#cfgCompany').value.trim()||'';
+    DB.save(DBSTATE);
+    document.title = DBSTATE.settings.title + ' — ' + (SESSION.user?.role==='admin'?'Admin':'Técnico');
+    alert('Configurações salvas!');
+  });
+
+  // Backup geral
+  q('#btnBackupAll').addEventListener('click', ()=> downloadJSON('backup_helpdesk.json', DBSTATE));
+  q('#restoreAll').addEventListener('change', e=> importJSON(e, data=>{ if(data && data.users && data.tickets){ DBSTATE=data; DB.save(DBSTATE); refreshAll(); alert('Backup restaurado.'); } }));
+
+  // ======= Modal Dinâmico =======
+  function showModal(title, build, onsubmit){
+    q('#formTitle').textContent = title;
+    const form = q('#dynamicForm');
+    build(form);
+    q('#formModal').style.display='flex';
+    form.onsubmit = (ev)=>{
+      ev.preventDefault();
+      const data = Object.fromEntries(new FormData(form).entries());
+      onsubmit && onsubmit(data);
+    }
+  }
+  function closeModal(){ q('#formModal').style.display='none'; q('#dynamicForm').innerHTML=''; }
+  q('#btnCloseModal').addEventListener('click', closeModal);
+
+  // ======= Helpers Export/Import =======
+  function downloadJSON(filename, data){
+    const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+    const a = document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=filename; a.click(); URL.revokeObjectURL(a.href);
+  }
+  function importJSON(evt, cb){
+    const f = evt.target.files[0]; if(!f) return; const reader = new FileReader();
+    reader.onload = () => { try{ const data = JSON.parse(reader.result); cb && cb(data); } catch(e){ alert('Arquivo inválido'); } };
+    reader.readAsText(f);
+  }
+
+  // ======= Botões Globais =======
+  q('#btnNewTicket').addEventListener('click', ()=> openTicketForm());
+  q('#btnNewClient').addEventListener('click', ()=> openClientForm());
+  q('#btnNewItem').addEventListener('click', ()=> openItemForm());
+  q('#btnNewUser').addEventListener('click', ()=> openUserForm());
+
+  // ======= Login Flow =======
+  function requireAuth(){
+    if(!SESSION.user){ q('#loginModal').style.display='flex'; }
+    else { q('#loginModal').style.display='none'; updateHeader(); gateByRole(); refreshAll(); }
+  }
+  q('#btnDoLogin').addEventListener('click', ()=>{
+    const u = q('#loginUser').value.trim(); const p=q('#loginPass').value;
+    if(SESSION.login(u,p)){ requireAuth(); showSection('dashboard'); document.title = DBSTATE.settings.title + ' — ' + (SESSION.user.role==='admin'?'Admin':'Técnico'); }
+    else alert('Credenciais inválidas');
+  });
+  q('#btnLogout').addEventListener('click', ()=>{ SESSION.logout(); requireAuth(); });
+
+  // ======= Refresh geral =======
+  function refreshAll(){
+    updateHeader(); gateByRole(); loadSettingsUI();
+    refreshKPIs(); refreshDashTables();
+    renderTicketRows(); renderClientRows(); renderInventoryRows(); renderUserRows();
+  }
+
+  // ======= Inicialização =======
+  requireAuth();
+  showSection('dashboard');
+
+  // ======= Expor algumas funções ao escopo global para os botões inline =======
+  window.editTicket = editTicket; window.delTicket=delTicket;
+  window.editClient = editClient; window.delClient=delClient;
+  window.editItem = editItem; window.delItem=delItem; window.adjustQty=adjustQty;
+  window.editUser = editUser; window.delUser=delUser;
+
+  </script>
+</body>
+</html>
