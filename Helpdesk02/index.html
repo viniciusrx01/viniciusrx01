@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Helpdesk & Estoque — Admin/Técnico</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+  <div class="topbar">
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    <div class="brand">
+      <div class="logo"></div>
+      <b>Helpdesk & Estoque</b>
+      <span class="muted">• Gerenciamento</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="userbox">
+      <span id="userName">Visitante</span>
+      <span id="userRole" class="role">—</span>
+      <button class="btn small ghost" id="btnLogout">Sair</button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <nav id="mainNav">
+      <div class="group">Navegação</div>
+      <ul>
+        <li><button class="btn ghost" data-section="dashboard">🏠 Dashboard</button></li>
+        <li><button class="btn ghost" data-section="tickets">🎫 Chamados</button></li>
+        <li><button class="btn ghost" data-section="clients">👥 Clientes</button></li>
+        <li><button class="btn ghost" data-section="inventory">📦 Estoque</button></li>
+        <li class="admin-only"><button class="btn ghost" data-section="users">👤 Usuários</button></li>
+        <li class="admin-only"><button class="btn ghost" data-section="settings">⚙️ Configurações</button></li>
+      </ul>
+    </nav>
+
+    <section class="content" id="dashboard">
+      <h2>📊 Visão Geral</h2>
+      <div class="grid cols-4" id="kpis">
+        <div class="card kpi"><div><h3>Abertos</h3><div class="muted">Chamados em aberto</div></div><div class="chip" id="kpiOpen">0</div></div>
+        <div class="card kpi"><div><h3>Em Andamento</h3><div class="muted">Sendo atendidos</div></div><div class="chip" id="kpiProgress">0</div></div>
+        <div class="card kpi"><div><h3>Fechados</h3><div class="muted">Últimos 30 dias</div></div><div class="chip" id="kpiClosed">0</div></div>
+        <div class="card kpi"><div><h3>Baixo Estoque</h3><div class="muted">Abaixo do mínimo</div></div><div class="chip warn" id="kpiLow">0</div></div>
+      </div>
+
+      <div class="grid cols-2" style="margin-top:12px">
+        <div class="card">
+          <h3>Últimos Chamados</h3>
+          <div class="toolbar">
+            <input id="searchDashTickets" placeholder="Buscar por título/cliente..." />
+          </div>
+          <div style="overflow:auto; max-height:300px">
+            <table>
+              <thead><tr><th>ID</th><th>Título</th><th>Cliente</th><th>Status</th><th>Prioridade</th><th>Atualizado</th></tr></thead>
+              <tbody id="dashTickets"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Itens com Baixo Estoque</h3>
+          <div style="overflow:auto; max-height:300px">
+            <table>
+              <thead><tr><th>SKU</th><th>Item</th><th>Qtd</th><th>Mín</th><th>Local</th></tr></thead>
+              <tbody id="dashLowStock"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content hidden" id="tickets">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>🎫 Chamados</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewTicket">+ Novo Chamado</button>
+          <button class="btn ghost" id="btnExportTickets">Exportar JSON</button>
+          <label class="btn ghost" for="importTickets">Importar JSON</label>
+          <input type="file" id="importTickets" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchTickets" placeholder="Buscar chamado..." />
+        <select id="filterStatus">
+          <option value="">Todos status</option>
+          <option value="open">Aberto</option>
+          <option value="progress">Em andamento</option>
+          <option value="closed">Fechado</option>
+        </select>
+        <select id="filterPriority">
+          <option value="">Todas prioridades</option>
+          <option>Baixa</option>
+          <option>Média</option>
+          <option>Alta</option>
+          <option>Urgente</option>
+        </select>
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>ID</th><th>Título</th><th>Cliente</th><th>Categoria</th><th>Status</th><th>Prioridade</th><th>Atribuído</th><th>Atualizado</th><th>Ações</th></tr></thead>
+          <tbody id="ticketRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden" id="clients">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>👥 Clientes</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewClient">+ Novo Cliente</button>
+          <button class="btn ghost" id="btnExportClients">Exportar JSON</button>
+          <label class="btn ghost" for="importClients">Importar JSON</label>
+          <input type="file" id="importClients" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchClients" placeholder="Buscar cliente por nome, e-mail ou telefone..." />
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>ID</th><th>Nome</th><th>E-mail</th><th>Telefone</th><th>Empresa/Local</th><th>Ações</th></tr></thead>
+          <tbody id="clientRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden" id="inventory">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>📦 Estoque</h2>
+        <div style="display:flex; gap:8px">
+          <button class="btn brand" id="btnNewItem">+ Novo Item</button>
+          <button class="btn ghost" id="btnExportInventory">Exportar JSON</button>
+          <label class="btn ghost" for="importInventory">Importar JSON</label>
+          <input type="file" id="importInventory" accept="application/json" class="hidden" />
+        </div>
+      </div>
+      <div class="toolbar">
+        <input id="searchInventory" placeholder="Buscar item por nome ou SKU..." />
+      </div>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>SKU</th><th>Item</th><th>Categoria</th><th>Local</th><th>Qtd</th><th>Mín</th><th>Fornecedor</th><th>Ações</th></tr></thead>
+        <tbody id="inventoryRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden admin-only" id="users">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <h2>👤 Usuários / Técnicos</h2>
+        <button class="btn brand" id="btnNewUser">+ Novo Técnico</button>
+      </div>
+      <p class="muted">Apenas administradores podem criar/editar técnicos.</p>
+      <div style="overflow:auto">
+        <table>
+          <thead><tr><th>Login</th><th>Nome</th><th>Perfil</th><th>Ações</th></tr></thead>
+          <tbody id="userRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content hidden admin-only" id="settings">
+      <h2>⚙️ Configurações</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Preferências</h3>
+          <div class="row row-1">
+            <label>Título do sistema <input id="cfgTitle" placeholder="Helpdesk & Estoque" /></label>
+            <label>Nome da empresa <input id="cfgCompany" placeholder="Minha Empresa Ltda" /></label>
+            <button class="btn brand" id="btnSaveSettings">Salvar</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Backup</h3>
+          <div class="row row-1">
+            <button class="btn ghost" id="btnBackupAll">Baixar backup (.json)</button>
+            <label class="btn ghost" for="restoreAll">Restaurar backup</label>
+            <input type="file" id="restoreAll" accept="application/json" class="hidden" />
+          </div>
+          <p class="mini muted">Dica: este projeto é somente front‑end e usa <b>localStorage</b> do navegador. Para uso em produção, conecte a um banco de dados em uma API segura.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="mini">Feito com ❤️. Versão somente Front‑End (HTML/CSS/JS). Credenciais padrão: <b>admin</b>: login <code>admin</code> / senha <code>admin</code>; <b>técnico</b>: login <code>tecnico</code> / senha <code>123</code>.</div>
+  </footer>
+
+  <!-- Login Overlay -->
+  <div class="modal" id="loginModal" style="display:flex; background:linear-gradient(180deg, rgba(2,6,23,.95), rgba(2,6,23,.95))">
+    <div class="box" style="max-width:420px">
+      <div class="head"><h3>Entrar</h3><span class="muted">Helpdesk & Estoque</span></div>
+      <div class="row row-1">
+        <label>Login <input id="loginUser" placeholder="Credenciais" autocomplete="username" /></label>
+        <label>Senha <input id="loginPass" type="password" placeholder="••••••" autocomplete="current-password"/></label>
+        <button class="btn brand" id="btnDoLogin">Entrar</button>
+        <p class="mini muted">Apenas para demonstração. Para produção, substitua por autenticação real no servidor.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Genérico -->
+  <div class="modal" id="formModal">
+    <div class="box">
+      <div class="head">
+        <h3 id="formTitle">Formulário</h3>
+        <button class="btn small ghost" id="btnCloseModal">Fechar</button>
+      </div>
+      <form id="dynamicForm" class="grid"></form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
