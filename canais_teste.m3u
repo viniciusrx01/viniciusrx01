@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="CANAIS FILMES E SERIES" tvg-logo="https://imagizer.imageshack.com/v2/640x480q90/922/u4dadg.png",A&E FHD
+#EXTINF:-1 group-title="CANAIS FILMES E SERIES" tvg-logo="http://1.bp.blogspot.com/-KVAJJtXKXUE/XmQOw0jLTMI/AAAAAAAACRo/GORUzAEatRU7S0MPBE7yXcIRsXTYmwN0QCK4BGAYYCw/s400/A%2526E.png",A&E FHD
 http://saga10.pro:80/345715/562156/2639888
 #EXTINF:-1 group-title="CANAIS FILMES E SERIES" tvg-logo="https://imagizer.imageshack.com/v2/640x480q90/922/u4dadg.png",A&E HD
 http://saga10.pro:80/345715/562156/2639889
@@ -1627,3 +1627,4 @@ http://saga10.pro:80/345715/562156/1263427
 http://saga10.pro:80/345715/562156/1263426
 #EXTINF:-1 group-title="VARIEDADES" tvg-logo="https://imagizer.imageshack.com/v2/150x100q90/923/DX99xs.png",WOOHOO SD
 http://saga10.pro:80/345715/562156/1263425
+
